@@ -1,0 +1,21 @@
+a {
+    color:inherit
+}
+
+.big-title,.category,.sub-descrip{
+    font-family: "Noto Sans";
+    
+}
+
+.big-title,.category,.icons-div{
+    text-align: center;
+
+}
+
+
+
+.sub-descrip{
+    font-size: 15px;
+    text-align: left;
+    padding: 0% 15% 3% 15%;
+}
