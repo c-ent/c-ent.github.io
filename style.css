@@ -1,21 +1,34 @@
 a {
     color:inherit
 }
+body{
+    background: rgb(237,237,240);
+background: linear-gradient(90deg, rgba(237,237,240,1) 0%, rgba(229,240,244,1) 67%);
+}
 .container{
     margin:2% 10% 0% 10%
 }
-
-.greetdiv{
-    width:60%;
+.greetbox{
     margin-top: 10%;
     margin-bottom: 10%;
+    display: flex;
+
+}
+.greetdiv{
+    width:60%;
 }
 .greet,.subgreet{
     font-family: "Montserrat";
     font-weight:700;
     font-size:60px;
 }
+.greetimg{
+    width: 100%;
+}
 
+.greetimgmain{
+    width:40%
+}
 .subgreet{
     color:#1063C6;
 }
@@ -29,21 +42,63 @@ a {
     font-family: "Montserrat";
     font-weight: 600;
     color:black;
-    font-size: 30px;
+    font-size: 50px;
 
 }
 .aboutdescript{
     font-family: "Open Sans";
     font-weight:500 ;
     margin-bottom: 5%;
-
 }
 
 
-
-
+.projectsdescript{
+    font-family: "Open Sans";
+    font-weight:500 ;
+}
+.warn{
+    font-weight: bold;
+    font-size: 18px;
+}
 .sub-descrip{
     font-size: 15px;
     text-align: left;
     padding: 0% 15% 3% 15%;
 }
+.projectsdiv{
+    display: grid;
+    grid-template-columns: auto auto ;
+    column-gap: 20px;
+}
+.projects{
+    width: 100%;
+}
+.credit{
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight:500 ;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .container{
+        margin:1% 5% 0% 5%
+    }
+    .greetdiv{
+        width:100%;
+    }
+    .greetimgmain{
+        display: none;
+    }
+    .greet,.subgreet{
+        font-size: 45px;
+    }
+    .descripgreet{
+        font-size: 25px;
+    }
+    .projectsdiv{
+        display: grid;
+        grid-template-columns: auto  ;
+        column-gap: 20px;
+    }
+  }
