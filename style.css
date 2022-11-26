@@ -1,16 +1,44 @@
 a {
     color:inherit
 }
-
-.big-title,.category,.sub-descrip{
-    font-family: "Noto Sans";
-    
+.container{
+    margin:2% 10% 0% 10%
 }
 
-.big-title,.category,.icons-div{
-    text-align: center;
+.greetdiv{
+    width:60%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.greet,.subgreet{
+    font-family: "Montserrat";
+    font-weight:700;
+    font-size:60px;
+}
+
+.subgreet{
+    color:#1063C6;
+}
+
+.descripgreet{
+    font-family: "Montserrat";
+    color:#7B7D84;
+    font-size: 30px;
+}
+.aboutmetitle{
+    font-family: "Montserrat";
+    font-weight: 600;
+    color:black;
+    font-size: 30px;
 
 }
+.aboutdescript{
+    font-family: "Open Sans";
+    font-weight:500 ;
+    margin-bottom: 5%;
+
+}
+
 
 
 
