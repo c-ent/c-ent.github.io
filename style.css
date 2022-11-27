@@ -5,8 +5,16 @@ body{
     background: rgb(237,237,240);
 background: linear-gradient(90deg, rgba(237,237,240,1) 0%, rgba(229,240,244,1) 67%);
 }
+
+.easter-egg-button{
+    background-color:transparent;
+    border: none;
+}
 .container{
     margin:2% 10% 0% 10%
+}
+.icons-div{
+
 }
 .greetbox{
     margin-top: 10%;
@@ -50,7 +58,18 @@ background: linear-gradient(90deg, rgba(237,237,240,1) 0%, rgba(229,240,244,1) 6
     font-weight:500 ;
     margin-bottom: 5%;
 }
+.doggo-text-warn{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 20px;
+}
 
+.doggo-times{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 20px;
+    color:red
+}
 
 .projectsdescript{
     font-family: "Open Sans";
@@ -94,9 +113,13 @@ background: linear-gradient(90deg, rgba(237,237,240,1) 0%, rgba(229,240,244,1) 6
     .container{
         margin:1% 5% 0% 5%
     }
-    .greetdiv{
+    .greetdiv,.greetimgmain{
         width:100%;
     }
+    .greetbox{
+        flex-direction: column;
+    }
+
     .greetimgmain{
         display: none;
     }

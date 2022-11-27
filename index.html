@@ -13,6 +13,7 @@
     <meta http-equiv='pragma' content='no-cache'>
     <link rel='icon' href='src/img/annoyingdog.gif'>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -20,14 +21,16 @@
 </head>
 <body>
 
+        
+
     <div class="container">
         <div class="icons-div">
             <a href="https://www.facebook.com/tnec.cent/"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
             <a href="https://www.linkedin.com/in/elherencarnacion/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
             <a href="mailto:encarnacionelher@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
             <a href="https://github.com/c-ent"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+            
          </div>
-         
       
         <div class="greetbox">
             <div class="greetdiv">
@@ -42,7 +45,7 @@
                 </div>
             </div>
             <div class="greetimgmain">
-                
+                <img class="greetimg"src="src/img/crow.gif">
 
             </div>
 
@@ -59,6 +62,11 @@
                 <div class="aboutdescript">
                 Outside of software and web development, I love playing games, watching movie and shows, and learning new things. I find it comforting to have hobbies outside of coding, as it helps me focus and feel relax if Im tired.
                 </div>
+        </div>
+        <div align="center">
+            <p class="doggo-text-warn">Dont touch the workin doggo</p>
+            <p><button class="easter-egg-button" onclick="clickCounter()" type="button"><img src="src/img/annoyingdog.gif"></button></p>
+            <p class="doggo-times"  id="result"></p>
         </div>
 
        
