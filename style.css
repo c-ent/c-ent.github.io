@@ -57,8 +57,18 @@ background: linear-gradient(90deg, rgba(237,237,240,1) 0%, rgba(229,240,244,1) 6
     font-weight:500 ;
 }
 .warn{
+    background-color: aqua;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
+}
+.working-on{
+    width: 50%;
+}
+.warn-working{
+
+    font-family: "Open Sans";
+    font-weight:500 ;
+    font-size: 25px;
 }
 .sub-descrip{
     font-size: 15px;
@@ -100,5 +110,8 @@ background: linear-gradient(90deg, rgba(237,237,240,1) 0%, rgba(229,240,244,1) 6
         display: grid;
         grid-template-columns: auto  ;
         column-gap: 20px;
+    }
+    .working-on{
+        width: 100%;
     }
   }
