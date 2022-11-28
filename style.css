@@ -35,7 +35,10 @@ background: linear-gradient(90deg, rgba(237,237,240,1) 0%, rgba(229,240,244,1) 6
 }
 
 .greetimgmain{
-    width:40%
+    width:40%;
+    display: flex;
+align-items:center;
+justify-content:center;
 }
 .subgreet{
     color:#1063C6;
