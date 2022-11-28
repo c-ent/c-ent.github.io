@@ -141,6 +141,9 @@ justify-content:center;
     .greet,.subgreet{
         font-size: 60px;
     }
+    .aboutmetitle{
+        font-size:40px;
+    }
     .descripgreet{
         font-size: 30px;
     }
