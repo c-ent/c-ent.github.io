@@ -131,7 +131,9 @@ justify-content:center;
     .greetbox{
         flex-direction: column;
     }
-
+    .aboutdescript{
+        font-size:25px;
+    }
     .greetimgmain{
         display: none;
     }
