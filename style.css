@@ -23,19 +23,19 @@ background: linear-gradient(90deg, rgba(237,237,240,1) 0%, rgba(229,240,244,1) 6
 
 }
 .greetdiv{
-    width:60%;
+    width:50%;
 }
 .greet,.subgreet{
     font-family: "Montserrat";
     font-weight:700;
-    font-size:60px;
+    font-size:72px;
 }
 .greetimg{
     width: 100%;
 }
 
 .greetimgmain{
-    width:40%;
+    width:50%;
     display: flex;
 align-items:center;
 justify-content:center;
@@ -47,30 +47,31 @@ justify-content:center;
 .descripgreet{
     font-family: "Montserrat";
     color:#7B7D84;
-    font-size: 30px;
+    font-size: 32px;
 }
 .aboutmetitle{
     font-family: "Montserrat";
     font-weight: 600;
     color:black;
-    font-size: 50px;
+    font-size: 80px;
 
 }
 .aboutdescript{
     font-family: "Open Sans";
     font-weight:500 ;
     margin-bottom: 5%;
+    font-size:25px;
 }
 .doggo-text-warn{
     font-family: 'Montserrat';
     font-weight: 800;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .doggo-times{
     font-family: 'Montserrat';
     font-weight: 800;
-    font-size: 20px;
+    font-size: 32px;
     color:red
 }
 
