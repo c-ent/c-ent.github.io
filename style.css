@@ -62,6 +62,14 @@ justify-content:center;
     margin-bottom: 5%;
     font-size:25px;
 }
+
+.easter-egg-div{
+    width:100%;
+}
+.dog-image{
+    width:300px;
+    height: 300px;
+}
 .doggo-text-warn{
     font-family: 'Montserrat';
     font-weight: 800;
