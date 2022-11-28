@@ -29,6 +29,7 @@ background: linear-gradient(90deg, rgba(237,237,240,1) 0%, rgba(229,240,244,1) 6
     font-family: "Montserrat";
     font-weight:700;
     font-size:72px;
+    margin:0 0 5px 0;
 }
 .greetimg{
     width: 100%;
@@ -121,7 +122,7 @@ justify-content:center;
 }
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1100px) {
     .container{
         margin:1% 5% 0% 5%
     }
@@ -132,13 +133,13 @@ justify-content:center;
         flex-direction: column;
     }
     .aboutdescript{
-        font-size:25px;
+        font-size:19px;
     }
     .greetimgmain{
         display: none;
     }
     .greet,.subgreet{
-        font-size: 50px;
+        font-size: 60px;
     }
     .descripgreet{
         font-size: 30px;
