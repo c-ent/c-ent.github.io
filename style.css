@@ -12,7 +12,12 @@ body{
     border: none;
 }
 .container{
-    margin:2% 10% 0% 10%
+
+    /* margin:2% 10% 0% 10%; */
+    margin:auto;
+    padding:2% 10% 0% 10%;
+    max-width: 1440px;
+
 }
 .icons-div{
 
