@@ -1,3 +1,9 @@
+setTimeout(function () {
+  
+  document.getElementById('intro-id').style.display = 'none'
+}, 3000)
+
+
 function clickCounter() {
     if (typeof(Storage) !== "undefined") {
       if (localStorage.clickcount) {
