@@ -18,15 +18,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
  
 
 </head>
 <body>
 
     <!-- // Effect startup -->
-    <div id="intro-id" class="intro">
+    <!-- <div id="intro-id" class="intro">
        <h1 class="intro-text"> 「 Cent 」</h1>
-    </div>
+    </div> -->
+
 
     <div class="container">
         <div class="header-div">
@@ -45,13 +48,13 @@
       
         <div class="greetbox">
             <div class="greetdiv">
-                <div class="greet1">
+                <div  data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="greet1">
                 <p class="greet">Hello! I'm</p>
                 </div>
-                <div class="subgreet1">
+                <div data-aos="fade-right"  data-aos-delay="400" data-aos-duration="1000" data-aos-once="true" class="subgreet1">
                 <p class="subgreet">Elher Encarnacion</p>
                 </div>
-                <div class="descripgreet">
+                <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true" class="descripgreet">
                     A web/software developer student from Philippines. I aim to deepen my understanding in various areas of technology and product development.
                 </div>
             </div>
@@ -63,14 +66,14 @@
 
         </div>
         <div class="aboutmediv">
-                <div class="aboutmetitle">
+                <div data-aos="fade-down" data-aos-delay="300" data-aos-duration="800" data-aos-once="true" class="aboutmetitle">
                     About Me
                 </div>
 
-                <div class="aboutdescript">
+                <div  data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true" class="aboutdescript">
                     ⚡ As a student, I learn patience and persistence while studying new things. I enjoy learning about unfamiliar concepts about <span class="highlight-descript">software development</span> and other topics which I find interesting. In addition to school, I constantly seek opportunities to expand my knowledge and I am also interested in <span class="highlight-descript">Software Engineering, Machine Learning, Game Development, and Block Chain Development.</span>
                 </div>
-                <div class="aboutdescript">
+                <div data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true" class="aboutdescript">
                     🌱Outside of software and web development, I love <span class="highlight-descript">playing games, watching movie and shows, and learning new things.</span> I find it comforting to have hobbies outside of coding, as it helps me focus and feel relax if Im tired.
                 </div>
         </div>
@@ -148,6 +151,11 @@
     </div>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1511389767615927"
 crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>

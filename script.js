@@ -1,7 +1,7 @@
-setTimeout(function () {
+// setTimeout(function () {
   
-  document.getElementById('intro-id').style.display = 'none'
-}, 3000)
+//   document.getElementById('intro-id').style.display = 'none'
+// }, 3000)
 
 
 function clickCounter() {
