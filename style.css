@@ -62,7 +62,7 @@ position: fixed;
 .header-div{
     display: flex;
     align-items: center;
-    position: fixed;
+    position: sticky;
 background-color: white;
 }
 
