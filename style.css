@@ -80,14 +80,13 @@ body{
     margin:0 0 5px 0;
 }
 .greetimg{
-    width: 100%;
+    width: 80%;
+
 }
 
 .greetimgmain{
     width:50%;
-    display: flex;
-align-items:center;
-justify-content:center;
+
 }
 .subgreet,.highlight-descript{
     color:#1063C6;
@@ -185,12 +184,13 @@ justify-content:center;
 
 
 
-/* 
+
 @media only screen and (max-width: 1366px) {
-    .greetbox{
-        margin-top:0%;
+    .greetimg{
+        width: 100%;
+    
     }
-} */
+}
 
 @media only screen and (max-width: 1100px) {
     .container{
@@ -228,8 +228,7 @@ justify-content:center;
   }
 @media only screen and (max-width: 600px) {
     .greetbox{
-        margin-top:27%;
-        margin-bottom:27%;
+
     }
 }
 
