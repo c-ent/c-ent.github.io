@@ -3,8 +3,6 @@ a {
     text-decoration: none;
 }
 body{
-    background: rgb(237,237,240);
-    background: linear-gradient(90deg, rgba(237,237,240,1) 0%, rgba(229,240,244,1) 67%);
     margin:0;
 }
 
