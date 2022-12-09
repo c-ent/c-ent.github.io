@@ -2,6 +2,19 @@
   
 //   document.getElementById('intro-id').style.display = 'none'
 // }, 3000)
+document.onreadystatechange = function() {
+  if (document.readyState !== "complete") {
+      document.querySelector(
+        "body").style.visibility = "hidden";
+      document.querySelector(
+        "#loading").style.visibility = "visible";
+  } else {
+      document.querySelector(
+        "#loading").style.display = "none";
+      document.querySelector(
+        "body").style.visibility = "visible";
+  }
+};
 
 document.addEventListener("DOMContentLoaded", function() {
   setTimeout(typeWriter, 1000);

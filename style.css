@@ -7,28 +7,29 @@ body{
 }
 
 /* intro efects */
-.intro{
-    background-color:aliceblue;
-    height: 100vh;
-    width: 100vw;;
-    position: fixed;
-    text-align: center;
+#loading{
+position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  z-index: 99;
+
+  font-family: "Montserrat";
+  font-weight:700;
+  font-size:30px;
+  color:#141414
 }
-.intro-text{
-    color:#1063C6;
-    font-family: "Montserrat";
-    font-weight:700;
-    font-size:50px;
-    animation: slideUp ease .5s forwards 1.2s;
-    transform: translateY(-300%);
 
+.loading-img{
+    width: 80px;
+    height: 80px;
 }
-
-@keyframes slideUp {
-    0% {transform: translateY(0);}
-    100% {transform: translateY(50vh);opacity:1;}
-  }
-
 
 /*  */
 .logo-text{
