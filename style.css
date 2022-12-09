@@ -70,6 +70,7 @@ position: fixed;
     margin-bottom: 10%;
     display: flex;
 
+
 }
 .greetdiv{
     width:50%;
@@ -97,6 +98,7 @@ position: fixed;
     font-family: "Montserrat";
     color:#7B7D84;
     font-size: 32px;
+
 }
 .aboutmetitle{
     font-family: "Montserrat";
@@ -216,6 +218,7 @@ position: fixed;
         font-size:40px;
     }
     .descripgreet{
+        height: 100px;
         font-size: 30px;
     }
     .projectsdiv{
@@ -228,13 +231,17 @@ position: fixed;
     }
   }
 @media only screen and (max-width: 600px) {
-    .greetbox{
-
-    }
+   .descripgreet{
+    height: 180px;
+   }
 }
 
   @media only screen and (max-width: 400px) {
     .greet,.subgreet{
         font-size: 45px;
+    }
+
+    .descripgreet{
+        height: 100%;
     }
   }
