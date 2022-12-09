@@ -3,7 +3,10 @@
 //   document.getElementById('intro-id').style.display = 'none'
 // }, 3000)
 
+document.addEventListener("DOMContentLoaded", function() {
+  setTimeout(typeWriter, 1000);
 
+});
 function clickCounter() {
     if (typeof(Storage) !== "undefined") {
       if (localStorage.clickcount) {
@@ -16,3 +19,17 @@ function clickCounter() {
       document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
     }
   }
+
+
+var i = 0;
+var txt = 'A web/software developer student from Philippines. I aim to deepen my understanding in various areas of technology and product development.';
+var speed = 15;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("typing").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
