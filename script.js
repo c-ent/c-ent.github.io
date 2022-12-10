@@ -45,4 +45,30 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
+var audio = new Audio('src/audio/annoyingdog.mp3');
+
+function dogpopfnc(){
+  document.getElementById("dogpopid").style.display = "block";
+  audio.play();
+
+
+}
+
+function clodedogid(){
+  document.getElementById("dogpopid").style.display = "none";
+  audio.pause();
+
+
+}
+
+const dogtimeout = setTimeout(dogclosefnc, 8000);
+
+function dogclosefnc() {
+  document.getElementById("closedogid").style.display = "block"
+}
+
+// $('#toggle').on('click', function() {
+//   $('#someOtherDiv').show();
+// }
+
 
