@@ -49,7 +49,7 @@ var audio = new Audio('src/audio/annoyingdog.mp3');
 
 function dogpopfnc(){
   document.getElementById("dogpopid").style.display = "block";
-  const dogtimeout = setTimeout(dogclosefnc, 8000);
+  const dogtimeout = setTimeout(dogclosefnc, 12000);
   audio.play();
 
 
