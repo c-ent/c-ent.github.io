@@ -65,10 +65,17 @@ body{
     display: flex;
     align-items: center;
     position: sticky;
-    background-color: rgba(255, 255, 255, 0.652);
+    background-color: rgba(255, 255, 255, 0.785);
     top:0;
     z-index: 99;
 }
+.clickmetxt{
+    margin: 0;
+    /* animation: blinker 2s infinite; */
+}
+
+
+
 
 
 .greetbox{
