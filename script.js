@@ -49,11 +49,11 @@ var audio = new Audio('src/audio/annoyingdog.mp3');
 
 function dogpopfnc(){
   document.getElementById("dogpopid").style.display = "block";
+  const dogtimeout = setTimeout(dogclosefnc, 8000);
   audio.play();
 
 
 }
-
 function clodedogid(){
   document.getElementById("dogpopid").style.display = "none";
   audio.pause();
@@ -61,7 +61,11 @@ function clodedogid(){
 
 }
 
-const dogtimeout = setTimeout(dogclosefnc, 8000);
+
+
+
+
+
 
 function dogclosefnc() {
   document.getElementById("closedogid").style.display = "block"
