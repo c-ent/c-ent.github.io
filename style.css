@@ -227,7 +227,7 @@ body{
 .dogpopimg1{
     position:fixed;
     top: 0vh;
-    right: 0vw;
+    right: -20vw;
     width:200px;
     height: 200px;
     animation: slidingdog1 5s;
@@ -239,7 +239,7 @@ body{
         transform: translateX(-40vw);
     }
     100%{
-        transform: translateX(-100vw);
+        transform: translateX(-120vw);
     }
 }
 
