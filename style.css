@@ -107,7 +107,7 @@ body{
 
 }
 .subgreet,.highlight-descript{
-    color:#1063C6;
+    color:#00588c;
 }
 
 .descripgreet{
@@ -226,8 +226,8 @@ body{
 
 .dogpopimg1{
     position:fixed;
-    top: 0;
-    right: -5%;
+    top: 0vh;
+    right: 0vw;
     width:200px;
     height: 200px;
     animation: slidingdog1 5s;
@@ -236,17 +236,17 @@ body{
 
 @keyframes slidingdog1 {
     50%{
-        transform: translateX(-450%);
+        transform: translateX(-40vw);
     }
     100%{
-        transform: translateX(-900%);
+        transform: translateX(-100vw);
     }
 }
 
 .dogpopimg2{
     position:fixed;
-    top: 20%;
-    left: -20%;
+    top: 20vh;
+    left: -20vw;
     width:400px;
     height: 400px;
     animation: slidingdog2 10s;
@@ -255,17 +255,17 @@ body{
 
 @keyframes slidingdog2 {
     50%{
-        transform: translateX(200%);
+        transform: translateX(60vw);
     }
     100%{
-        transform: translateX(400%);
+        transform: translateX(120vw);
     }
 }
 
 .dogpopimg3{
     position:fixed;
-    top: 50%;
-    left: 0%;
+    top: 50vh;
+    left: -20vw;
     width:200px;
     height: 200px;
     animation: slidingdog3 3s;
@@ -274,32 +274,29 @@ body{
 
 @keyframes slidingdog3 {
     50%{
-        transform: translateX(450%);
+        transform: translateX(55vw);
     }
     100%{
-        transform: translateX(900%);
+        transform: translateX(120vw);
     }
 }
 
 .dogpopimg4{
     position:fixed;
-    bottom: -20%;
-    right: -80%;
+    top: 60vh;
+    right: -100vw;
     width:500px;
     height: 500px;
-    animation: slidingdog4 8s;
+    animation: slidingdog4 5s;
     animation-iteration-count:infinite;
 }
 
 @keyframes slidingdog4 {
     50%{
-        transform: translateX(-200%);
-    }
-    75%{
-        transform: translateX(-300%);
+        transform: translateX(-100vw);
     }
     100%{
-        transform: translateX(-500%);
+        transform: translateX(-200vw);
     }
 }
 
@@ -385,57 +382,22 @@ body{
     animation-iteration-count:infinite;
 }
 
-@keyframes slidingdog1 {
-    50%{
-        transform: translateX(-100%);
-    }
-    100%{
-        transform: translateX(-400%);
-    }
-}
 .dogpopimg2{
     animation: slidingdog2 3s;
     animation-iteration-count:infinite;
 }
 
-@keyframes slidingdog2 {
-    50%{
-        transform: translateX(50%);
-    }
-    100%{
-        transform: translateX(150%);
-    }
-}
 
 .dogpopimg3{
     animation: slidingdog3 6s;
     animation-iteration-count:infinite;
 }
 
-@keyframes slidingdog3 {
-    50%{
-        transform: translateX(150%);
-    }
-    100%{
-        transform: translateX(300%);
-    }
-}
 .dogpopimg4{
-    animation: slidingdog4 4s;
+    animation: slidingdog4 s;
     animation-iteration-count:infinite;
 }
 
-@keyframes slidingdog4 {
-    50%{
-        transform: translateX(-50%);
-    }
-    75%{
-        transform: translateX(-100%);
-    }
-    100%{
-        transform: translateX(-200%);
-    }
-}
 }
 
   @media only screen and (max-width: 400px) {
