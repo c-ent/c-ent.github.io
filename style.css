@@ -8,6 +8,7 @@ body{
 }
 
 
+
 /* intro efects */
 #loading{
   position: fixed;
@@ -80,8 +81,9 @@ body{
 
 .greetbox{
     /* margin-top: 10%; */
-    margin-bottom: 10%;
+    margin-bottom: 2%;
     display: flex;
+  
 
 
 }
@@ -114,7 +116,13 @@ body{
     font-family: "Montserrat";
     color:#7B7D84;
     font-size: 32px;
+    margin-bottom: 0px;
+    height: 100%;
 
+}
+
+.descriptxt{
+    margin: none;
 }
 .aboutmetitle{
     font-family: "Montserrat";
@@ -423,9 +431,14 @@ body{
     }
   }
 @media only screen and (max-width: 600px) {
-   .descripgreet{
-    height: 180px;
-   }
+    .greet,.subgreet{
+        font-size: 40px;
+    }
+
+    .descripgreet{
+        font-size: 25px;
+        height: 100%;
+    }
 
    .dogpopimg1{
     animation: slidingdog1 4s;
@@ -451,11 +464,7 @@ body{
 }
 
   @media only screen and (max-width: 400px) {
-    .greet,.subgreet{
-        font-size: 45px;
-    }
+    
 
-    .descripgreet{
-        height: 100%;
-    }
+
   }
