@@ -266,6 +266,19 @@ body{
     left: 0;
     background-color: rgba(0, 0, 0, 0.765);
     z-index: 99;
+    animation: flickinglights linear 0.8s infinite;
+   
+}
+@keyframes flickinglights {
+    0%{
+        background-color:rgba(153, 205, 50, 0.856);
+    }
+    50%{
+        background-color:rgba(76, 0, 130, 0.856);
+    }
+    100%{
+        background-color: rgb(255, 43, 78,0.856);
+    }
 }
 
 
