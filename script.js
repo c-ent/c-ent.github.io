@@ -45,7 +45,7 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
-var audio = new Audio('src/audio/annoyingdog.mp3');
+// var audio = new Audio('src/audio/annoyingdog.mp3');
 
 function dogpopfnc(){
   document.getElementById("dogpopid").style.display = "block";
