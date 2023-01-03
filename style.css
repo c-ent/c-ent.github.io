@@ -39,22 +39,24 @@ body{
     font-family: "Montserrat";
     font-weight:700;
     font-size:30px;
+    margin: 0;
 }
 
 .easter-egg-button{
     background-color:transparent;
     border: none;
 }
-.container{
+.container1{
 
     /* margin:2% 10% 0% 10%; */
     margin:auto;
     padding:1% 5% 0% 5%;
-    max-width: 1440px;
+
 
 }
 .logo-div,.icons-div{
     width:50%;
+    padding:0 0 0% 5%;
 }
 .logo-div{
     text-align: left;
@@ -64,9 +66,12 @@ body{
 }
 .header-div{
     display: flex;
+    width: 100%;
+    height: 75px;
     align-items: center;
-    position: sticky;
-    background-color: rgba(255, 255, 255, 0.785);
+    position: fixed;
+    /* background-color: rgba(255, 255, 255, 0.785); */
+    background-color: rgba(255, 255, 255, 0);
     top:0;
     z-index: 99;
 }
@@ -89,11 +94,15 @@ body{
 }
 .greetdiv{
     width:50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .greet,.subgreet{
     font-family: "Montserrat";
     font-weight:700;
-    font-size:72px;
+    font-size:75px;
     margin:0 0 5px 0;
 }
 .greetimg{
@@ -101,8 +110,33 @@ body{
 
 }
 
+.greetimgpxl{
+    width:80%;
+}
+
 .greetimgmain{
     width:50%;
+    height: 100vh;
+    display: flex;
+    background-color: #D9D9D9;
+    flex-direction: column;
+    justify-content: center;
+    font-family: VT323;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.greetimgmainpxl{
+    width:50%;
+    height: 100vh;
+    display: flex;
+    background-image: url("src/img/skypxl.png");
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;  
+    flex-direction: column;
+    justify-content: center;
     font-family: VT323;
     text-align: center;
     font-size: 40px;
@@ -113,16 +147,19 @@ body{
 }
 
 .descripgreet{
-    font-family: "Montserrat";
-    color:#7B7D84;
-    font-size: 32px;
-    margin-bottom: 0px;
-    height: 100%;
+    /* height: 0 !important; */
+
+
 
 }
 
 .descriptxt{
+    font-family: "Montserrat";
+    color:#7B7D84;
+    font-size: 32px;
+    margin-bottom: 0px;
     margin: none;
+    font-size: 35px;
 }
 .aboutmetitle{
     font-family: "Montserrat";
@@ -390,25 +427,117 @@ body{
     text-align: center;
 }
 
+.carousel .carousel-indicators button {
+    text-indent:0;
+    text-align: left;
+    width:200px;
+    height: 40px;
+    font-size: 40px;
+    border:none;
+    margin:0;
+    background-color: transparent; 
+ }
 
+.carousel-indicators{
+    display: flex;
+    height: 40px;
+    justify-content: flex-start !important;
+    right: 5%;
+    top:80px;
+    margin: 0 !important;
+    padding:1% 5% 0% 5% !important;
+
+}
+
+/* .carousel-indicators {
+    position: absolute;
+    bottom: 200px;
+    z-index: 15;
+    width: 30px;
+    right: 5%;
+    top:50px;
+  } */
 
 
 
 
 @media only screen and (max-width: 1366px) {
-    .greetimg{
-        width: 100%;
-    
+    .greet,.subgreet{
+        font-size: 50px;
+    }
+
+    .descriptxt{
+        font-size: 25px;
+    }
+
+    .carousel .carousel-indicators button {
+        font-size: 20px;
+        width:100px;
+     }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .greet,.subgreet{
+        font-size: 40px;
+    }
+
+    .descriptxt{
+        font-size: 25px;
     }
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1000px) {
+    .greet,.subgreet{
+        font-size: 30px;
+    }
+
+    .descriptxt{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
     .container{
 
     }
-    .greetdiv,.greetimgmain{
+    .greetdiv,.greetimgmain,.greetimgmainpxl{
         width:100%;
+        
+       
     }
+    
+    .carousel .carousel-item{
+        height:calc(100vh - 60px) !important;
+      
+    }
+
+    .greetdiv{
+        height: 50%;
+        padding-top: 20vh;
+    }
+
+    .greetimgmain,.greetimgmainpxl{
+        padding: 0;
+        margin: 0;
+        height: 45%;
+    }
+
+    .greetimg{
+        width: 40vh;
+    
+    }
+
+    .greetimgpxl{
+        width:30vh;
+    }
+
+    .clickmetxt{
+        font-size: 25px;
+    }
+
+    
     .greetbox{
         flex-direction: column;
     }
@@ -424,9 +553,11 @@ body{
     /* .greetimgmain{
         display: none;
     } */
-    .greet,.subgreet{
-        font-size: 60px;
+
+    .descriptxt{
+        font-size: 20px;
     }
+
     .aboutmetitle{
         font-size:40px;
     }
@@ -445,7 +576,7 @@ body{
   }
 @media only screen and (max-width: 600px) {
     .greet,.subgreet{
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .descripgreet{
@@ -476,8 +607,16 @@ body{
 
 }
 
-  @media only screen and (max-width: 400px) {
-    
+  @media only screen and (max-width: 390px) {
+    .greetdiv{
+        padding-top: 20vh;
+    }
+    .greet,.subgreet{
+        font-size: 30px;
+    }
 
+    .descriptxt{
+        font-size: 15px;
+    }
 
   }

@@ -2,6 +2,10 @@
   
 //   document.getElementById('intro-id').style.display = 'none'
 // }, 3000)
+
+
+
+
 document.onreadystatechange = function() {
   if (document.readyState !== "complete") {
       document.querySelector(
@@ -16,10 +20,20 @@ document.onreadystatechange = function() {
   }
 };
 
+
+
+
 document.addEventListener("DOMContentLoaded", function() {
   setTimeout(typeWriter, 1000);
+  var myCarousel = document.getElementById("myCarousel");
+
+    myCarousel.addEventListener("slid.bs.carousel", function(){
+      setTimeout(typeWriter, 1000);
+    });
 
 });
+
+
 function clickCounter() {
     if (typeof(Storage) !== "undefined") {
       if (localStorage.clickcount) {
@@ -45,6 +59,8 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
+
+
 // var audio = new Audio('src/audio/annoyingdog.mp3');
 
 function dogpopfnc(){
@@ -60,8 +76,6 @@ function clodedogid(){
 
 
 }
-
-
 
 
 
