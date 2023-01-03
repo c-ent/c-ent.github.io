@@ -99,6 +99,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
 }
 .greet,.subgreet{
     font-family: "Montserrat";
@@ -120,7 +121,7 @@ body{
 }
 .grassdiv{
     position: absolute;
-    bottom: 0px;
+    bottom: -5px;
 }
 .grass{
     margin-left: -15%;
@@ -580,6 +581,7 @@ body{
     .greetdiv{
         height: 60%;
         padding-top: 15vh;
+ 
     }
 
     .greetimgmain,.greetimgmainpxl{
