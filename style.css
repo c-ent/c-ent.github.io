@@ -93,6 +93,7 @@ body{
 
 }
 .greetdiv{
+    position: relative;
     width:50%;
     height: 100%;
     display: flex;
@@ -113,10 +114,19 @@ body{
  }
 .greetpxl,.subgreetpxl{
     font-family:  Determination;
-    
+
     font-size:60px;
     margin:0 0 5px 0;
 }
+.grassdiv{
+    position: absolute;
+    bottom: 0px;
+}
+.grass{
+    margin-left: -15%;
+    width: 165%;
+}
+
 
 .greetimg{
     width: 100%;
@@ -136,6 +146,8 @@ body{
     50%{
         transform: translateY(20px);
     }
+
+    
 }
 
 .greetimgmain{
@@ -566,14 +578,14 @@ body{
     }
 
     .greetdiv{
-        height: 50%;
+        height: 60%;
         padding-top: 15vh;
     }
 
     .greetimgmain,.greetimgmainpxl{
         padding: 0;
         margin: 0;
-        height: 45%;
+        height: 40%;
     }
 
     .greetimg{
