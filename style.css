@@ -105,6 +105,19 @@ body{
     font-size:75px;
     margin:0 0 5px 0;
 }
+
+
+@font-face {
+    font-family: Determination;
+    src: url("src/fonts/DeterminationMonoWebRegular-Z5oq.ttf");
+ }
+.greetpxl,.subgreetpxl{
+    font-family:  Determination;
+    
+    font-size:60px;
+    margin:0 0 5px 0;
+}
+
 .greetimg{
     width: 100%;
 
@@ -112,6 +125,14 @@ body{
 
 .greetimgpxl{
     width:80%;
+    animation:fly linear 2s infinite;
+}
+
+
+@keyframes fly{
+    100%{
+        opacity: 0;
+    }
 }
 
 .greetimgmain{
@@ -160,6 +181,14 @@ body{
     margin-bottom: 0px;
     margin: none;
     font-size: 35px;
+}
+
+.descriptxtpxl{
+    font-family:  Determination;
+    color:#401B00;
+    margin-bottom: 0px;
+    margin: none;
+    font-size: 20px;
 }
 .aboutmetitle{
     font-family: "Montserrat";
@@ -466,6 +495,8 @@ body{
         font-size: 50px;
     }
 
+
+
     .descriptxt{
         font-size: 25px;
     }
@@ -486,6 +517,16 @@ body{
     .descriptxt{
         font-size: 25px;
     }
+
+
+
+    .greetpxl,.subgreetpxl{
+        font-size: 40px;
+    }
+
+    .descriptxtpxl{
+        font-size: 25px;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -494,6 +535,14 @@ body{
     }
 
     .descriptxt{
+        font-size: 20px;
+    }
+
+    .greetpxl,.subgreetpxl{
+        font-size: 25px;
+    }
+
+    .descriptxtpxl{
         font-size: 20px;
     }
 }
@@ -515,7 +564,7 @@ body{
 
     .greetdiv{
         height: 50%;
-        padding-top: 20vh;
+        padding-top: 15vh;
     }
 
     .greetimgmain,.greetimgmainpxl{
@@ -584,6 +633,11 @@ body{
         height: 100%;
     }
 
+    .greetpxl,.subgreetpxl{
+        font-size: 35px;
+    }
+
+
    .dogpopimg1{
     animation: slidingdog1 4s;
     animation-iteration-count:infinite;
@@ -616,6 +670,14 @@ body{
     }
 
     .descriptxt{
+        font-size: 15px;
+    }
+
+    .greetpxl,.subgreetpxl{
+        font-size: 30px;
+    }
+
+    .descriptxtpxl{
         font-size: 15px;
     }
 
