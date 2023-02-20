@@ -310,12 +310,14 @@ body{
 }
 .working-on{
     width: 50%;
+    margin-bottom: 3%;
 }
 .warn-working{
 
     font-family: "Open Sans";
     font-weight:500 ;
     font-size: 25px;
+    margin:3% 0% 3% 0%;
 }
 .sub-descrip{
     font-size: 15px;
@@ -567,6 +569,9 @@ body{
     .container{
 
     }
+    .header-div{
+        background-color: rgba(255, 255, 255, 0.352);
+    }
     .greetdiv,.greetimgmain,.greetimgmainpxl{
         width:100%;
         
@@ -616,6 +621,9 @@ body{
         width: 100%;
         font-size:19px;
     }
+    .aboutdescripttxt{
+        font-size: 13px;
+    }
     /* .greetimgmain{
         display: none;
     } */
@@ -639,8 +647,15 @@ body{
     .working-on{
         width: 100%;
     }
+
+    .warn-working{
+
+        font-size: 15px;
+ 
+    }
   }
 @media only screen and (max-width: 600px) {
+    
     .greet,.subgreet{
         font-size: 35px;
     }
