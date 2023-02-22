@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
       setTimeout(typeWriter, 1000);
     });
 
+    
 });
 
 

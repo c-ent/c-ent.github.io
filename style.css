@@ -1,3 +1,19 @@
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+.orange{
+    color: orange !important;
+}
+
+
+.header-div1{
+
+    background-color: rgba(0, 0, 0, 0.299) !important;
+
+}
+
 a {
     color:inherit !important;
     text-decoration: none !important;
@@ -59,6 +75,7 @@ body{
     padding:0% 5% 0% 5%;
 }
 .logo-div{
+    display: flex;
     text-align: left;
 }
 .icons-div{
@@ -71,7 +88,7 @@ body{
     align-items: center;
     position: fixed;
     /* background-color: rgba(255, 255, 255, 0.785); */
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.299);
     top:0;
     z-index: 99;
 }
@@ -115,7 +132,6 @@ body{
  }
 .greetpxl,.subgreetpxl{
     font-family:  Determination;
-
     font-size:60px;
     margin:0 0 5px 0;
 }
@@ -179,16 +195,11 @@ body{
     font-size: 40px;
 
 }
-.subgreet,.highlight-descript{
+.subgreet1,.highlight-descript{
     color:#00588c;
 }
 
-.descripgreet{
-    /* height: 0 !important; */
 
-
-
-}
 
 .descriptxt{
     font-family: "Montserrat";
@@ -209,7 +220,6 @@ body{
 .aboutmetitle{
     font-family: "Montserrat";
     font-weight: 600;
-    color:black;
     font-size: 80px;
 
 }
@@ -281,6 +291,7 @@ body{
 
 .easter-egg-div{
     width:100%;
+    background-color: white !important;
 }
 .dog-image{
     width:300px;
@@ -290,6 +301,7 @@ body{
     font-family: 'Montserrat';
     font-weight: 800;
     font-size: 25px;
+    color: black;
 }
 
 .doggo-times{
@@ -566,12 +578,8 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
-    .container{
 
-    }
-    .header-div{
-        background-color: rgba(255, 255, 255, 0.352);
-    }
+
     .greetdiv,.greetimgmain,.greetimgmainpxl{
         width:100%;
         
