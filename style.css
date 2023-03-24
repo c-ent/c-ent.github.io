@@ -278,7 +278,19 @@ body{
 }
 
 .dlresume{
-    
+    padding: 15px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.dlresume:hover{
+    background-color: #00588c;
+    color: white;
+}
+
+.dlresume:active{
+    background-color: #00588c;
+    color: white;
 }
 .resumediv{
     text-align: center;
