@@ -105,7 +105,7 @@ body{
 
 
 .greetbox{
-    /* margin-top: 10%; */
+    margin-top: 5%;
     margin-bottom: 2%;
     display: flex;
   
@@ -125,7 +125,7 @@ body{
 .greet,.subgreet{
     font-family: "Montserrat";
     font-weight:700;
-    font-size:75px;
+    font-size:60px;
     margin:0 0 5px 0;
 }
 
@@ -525,13 +525,17 @@ body{
 
 
 
-@media only screen and (min-width: 1366px) {
+@media only screen and (max-width: 1366px) {
     .greet,.subgreet{
-        font-size: 60px;
+        font-size: 55px;
     }
 
     .descriptxt{
         font-size: 25px;
+    }
+
+    .greetbox{
+        margin-top: 0%;
     }
 
 
@@ -614,7 +618,7 @@ body{
     }
     .descripgreet{
         
-        font-size: 30px;
+        font-size: 25px;
     }
     .projectsdiv{
         display: grid;
