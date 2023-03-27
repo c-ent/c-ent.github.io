@@ -130,33 +130,9 @@ body{
 }
 
 
-@font-face {
-    font-family: Determination;
-    src: url("src/fonts/DeterminationMonoWebRegular-Z5oq.ttf");
- }
-.greetpxl,.subgreetpxl{
-    font-family:  Determination;
-    font-size:60px;
-    margin:0 0 5px 0;
-}
-.grassdiv{
-    position: absolute;
-    bottom: -5px;
-}
-.grass{
-    margin-left: -15%;
-    width: 165%;
-}
-
-
 .greetimg{
     width: 100%;
 
-}
-
-.greetimgpxl{
-    width:80%;
-    animation:fly ease-in-out 2.5s infinite;
 }
 
 
@@ -184,21 +160,6 @@ body{
 
 }
 
-.greetimgmainpxl{
-    width:50%;
-    height: 100vh;
-    display: flex;
-    background-image: url("src/img/skypxl.png");
-    background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;  
-    flex-direction: column;
-    justify-content: center;
-    font-family: VT323;
-    text-align: center;
-    font-size: 40px;
-
-}
 .subgreet1,.highlight-descript{
     color:#00588c;
 }
@@ -227,28 +188,6 @@ body{
     font-size: 80px;
 
 }
-.winbar{
-    width:100%;
-    height:30px;
-    background-color:#D6C5A6    ;
-    border-bottom: solid;
-    border-color: gray;
-    border-width: 1px;
-    align-items: center;
-    display: flex;
-    justify-content: end;
-
-
-}
-.winbarbutton{
-    border-style: none;
-    background-color: red;
-    margin-right: 10px;
-    width: 20px;
-    height: 20px;
-    animation:blink linear 1s infinite
-}
-
 @keyframes blink{
     100%{
         opacity: 0;
@@ -257,22 +196,15 @@ body{
 .aboutdescriptdiv{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+  gap: 50px;
 }
 .aboutdescripttxt{
-    padding: 20px;
     font-family: "Open Sans";
     font-weight:500 ;
     font-size:20px;
-    color:black
 }
 .aboutdescript{
-    background-color:white;
-    width: 45%;
-    
-    border-style: solid;
-    border-width: 1px;
-    
+    width: 50%;
     margin-bottom: 2%;
     
 }
@@ -303,14 +235,11 @@ body{
     font-size: 20px;
 
 }
-.undercnstrct{
- 
-    width:20%;
-    height: auto;
-}
+
 
 .easter-egg-div{
     width:100%;
+    text-align: center;
     
 }
 .dog-image{
@@ -322,6 +251,7 @@ body{
     font-family: 'Montserrat';
     font-weight: 800;
     font-size: 25px;
+    text-align: center;
 
 }
 
@@ -488,16 +418,6 @@ body{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
 .footer-div{
     background-color:#141414;
     margin: 0;
@@ -507,36 +427,7 @@ body{
     text-align: center;
 }
 
-.carousel .carousel-indicators button {
-    text-indent:0;
-    text-align: left;
-    width:200px;
-    height: 40px;
-    font-size: 40px;
-    border:none;
-    margin:0;
-    background-color: transparent; 
- }
 
-.carousel-indicators{
-    display: flex;
-    height: 40px;
-    justify-content: flex-start !important;
-    right: 5%;
-    top:80px;
-    margin: 0 !important;
-    padding:1% 5% 0% 5% !important;
-
-}
-
-/* .carousel-indicators {
-    position: absolute;
-    bottom: 200px;
-    z-index: 15;
-    width: 30px;
-    right: 5%;
-    top:50px;
-  } */
 
 
 
@@ -619,7 +510,7 @@ body{
         font-size:19px;
     }
     .aboutdescripttxt{
-        font-size: 13px;
+        font-size: 15px;
     }
     /* .greetimgmain{
         display: none;

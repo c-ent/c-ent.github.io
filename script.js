@@ -50,7 +50,7 @@ function clickCounter() {
 
 
 var i = 0;
-var txt = 'A web/software developer student from Philippines. I aim to deepen my knowledge in various areas of technology and product development.';
+var txt = 'A web/software developer student. I aim to deepen my knowledge in various areas of technology and product development.';
 var speed = 15;
 
 function typeWriter() {
