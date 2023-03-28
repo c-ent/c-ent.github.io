@@ -1,6 +1,6 @@
 
 .dark-mode {
-    background-color: rgb(10, 10, 10);
+    background: linear-gradient(to bottom, rgb(19,19,19),rgb(0, 0, 0));
     color: white;
 }
 .white{
@@ -20,6 +20,7 @@ a {
 }
 body{
     margin:0;
+    background-color: rgb(255, 255, 241);
     
 }
 
@@ -201,6 +202,7 @@ body{
     font-family: "Open Sans";
     font-weight:500 ;
     font-size:20px;
+    text-align: justify;
 }
 .aboutdescript{
     width: 50%;
