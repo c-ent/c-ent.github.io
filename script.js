@@ -66,7 +66,7 @@ function typeWriter() {
 
 function dogpopfnc(){
   document.getElementById("dogpopid").style.display = "block";
-  const dogtimeout = setTimeout(dogclosefnc, 12000);
+  const dogtimeout = setTimeout(dogclosefnc, 2000);
   audio.play();
 
 
