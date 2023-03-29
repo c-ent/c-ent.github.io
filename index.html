@@ -13,8 +13,11 @@
     <meta http-equiv='pragma' content='no-cache'>
     <meta property="og:image" content="src/img/face 1.png">
     <meta name="google-site-verification" content="ogJYyAc1ZPSeggHHRrmZyqfofEGyONlNGinkOBGv3IM" />
-<link rel='icon' href='src/img/face 1.png'>
-    <link rel="stylesheet" href="style.css">
+    <link rel='icon' href='src/img/face 1.png'>
+
+
+     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
     <script src="script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -29,114 +32,91 @@
 
 </head>
 <body>
+ <!-- Loading Page -->
+<div id="loading">
+    <img class="loading-img"src="/src/img/loading.gif">
+</div>
+<!-- End of Loading Page -->
 
-<div class="container1">
-    <!-- // Effect startup -->
-    <div id="loading">
-       <img class="loading-img"src="/src/img/loading.gif">
-       
+
+<!-- Header Nav Bar -->
+<div class="header-div" id="header-div">
+    <div class="logo-div">
+        <a href="https://c-ent.github.io"><p class="logo-text">Cent</p></a>     
     </div>
- 
+    <div  style="width:10%;text-align: center;cursor: pointer;">
+        <a onclick="myFunction()"><img class="lamp"src="/src/img/hanging-lamp.png"></a> 
+    </div>
+    <div class="icons-div">
+        <a href="https://www.facebook.com/tnec.cent/"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/elherencarnacion/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+        <a href="mailto:encarnacionelher@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+        <a href="https://github.com/c-ent"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+    </div>
+</div>
+<!-- End of Nav Bar -->
 
-                <div class="greetbox  w-100 h-100 d-flex ">
-                    <div  class="greetdiv">
-                        <div  data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="greet1">
-                            <p class="greet">Hi! I'm</p>
-                        </div>
-
-                        <div data-aos="fade-right"  data-aos-delay="400" data-aos-duration="1000" data-aos-once="true" class="subgreet1" id="subgreet1">
-                            <p class="subgreet">Elher Encarnacion</p>
-                        </div>
-
-                        <div class="descripgreet">
-                                <p class="descriptxt"id="typing"></p>
-                        </div>
-
-                        
-
-                    </div>
-      
-                    <div   id="dogpopfncid"data-aos="fade-up"  data-aos-delay="1000" data-aos-duration="1000" data-aos-once="true" onclick="dogpopfnc()"  class="greetimgmain">
-                        
-                        <div >
-                            <img  class="greetimg"src="src/img/pc.gif">
-                        </div>
-
-                        <div >
-                            <!-- <p class="clickmetxt">Click Here </p> -->
-                        
-                               
-                          
-                        </div>
-                       
-                    </div>
+<!-- Start of Container1 -->
+<div class="container1">
+    
+        <!-- Start of Greeting Div -->
+        <div class="greetbox  w-100 h-100 d-flex ">
+            <div  class="greetdiv">
+                <div  data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" class="greet1">
+                    <p class="greet">Hi! I'm</p>
+                </div>
+                <div data-aos="fade-right"  data-aos-delay="400" data-aos-duration="1000" data-aos-once="true" class="subgreet1" id="subgreet1">
+                    <p class="subgreet">Elher Encarnacion</p>
+                </div>
+                <div class="descripgreet">
+                    <p class="descriptxt"id="typing"></p>
                 </div>
             </div>
-          </div>
-            
+      
+            <div   id="dogpopfncid"data-aos="fade-up"  data-aos-delay="1000" data-aos-duration="1000" data-aos-once="true" onclick="dogpopfnc()"  class="greetimgmain">   
+                <div >
+                    <img  class="greetimg"src="src/img/pc.gif">
+                </div>
+            </div>
+        </div>
+        <!-- Greeting End -->
+</div>
+<!-- End of Container1 -->
 
-          <div class="header-div" id="header-div">
-            <div class="logo-div">
-                <a href="https://c-ent.github.io"><p class="logo-text">Cent</p></a>
-              
-            </div>
-            <div  style="width:10%;text-align: center;cursor: pointer;">
-                <a onclick="myFunction()"><img class="lamp"src="/src/img/hanging-lamp.png"></a>
-                
-            </div>
-            <div class="icons-div">
-                <a href="https://www.facebook.com/tnec.cent/"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/in/elherencarnacion/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-                <a href="mailto:encarnacionelher@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
-                <a href="https://github.com/c-ent"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
-            </div>
-          
-         </div>
-          <div class="container1">
+<div class="container1">
+    <!-- About Section -->
         <div data-aos="fade-down" data-aos-delay="300" data-aos-duration="800" data-aos-once="true" class="aboutmetitle">
             <p>About Me</p>
         </div>
         <div class="aboutmediv">
-            
             <div class="aboutdescriptdiv">
                 <div  data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true" class="aboutdescript" >
-
                     <div class="aboutdescripttxt">As a student, I learn patience and persistence while studying new things. I enjoy learning about unfamiliar concepts about software development and other topics which I found interesting. In addition to school, I constantly seek opportunities to expand my knowledge and I am also interested in Software Engineering, Machine Learning, Game Development, and Block Chain Development.
                     </div>
                      
                 </div>
                 <div data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true" class="aboutdescript"  >
-
                     <div class="aboutdescripttxt">Outside of software and web development, I love playing game,watching interesting shows/movies, listening to music and dank memes.I find it comforting to have hobbies outside of coding, as it helps me focus and feel relax if Im tired.
                     </div>
-
-                    
                 </div>
             </div>
         </div>
+    <!-- End of About Section -->
 
+    <!-- Resume Section -->
         <div data-aos="fade-down" data-aos-delay="400" data-aos-duration="800" data-aos-once="true" class="aboutmetitle">
             Resume
         </div>
-
-
-
-
-
-
-        
         <div data-aos="fade-down" data-aos-delay="400" data-aos-duration="800" data-aos-once="true" class="resumediv">
             <a class="dlresume"href="https://c-ent.github.io/src/Resume.png" download><i class="fa fa-file" aria-hidden="true"></i> Download</a>
-
         </div>
+    <!-- End of Resume Section -->
 
-       
-        
-
-            
-            <div data-aos="fade-down" data-aos-delay="300" data-aos-duration="800" data-aos-once="true" class="aboutmetitle">
-                Projects
-            </div>
+    <!-- Projects Section -->
+        <div data-aos="fade-down" data-aos-delay="300" data-aos-duration="800" data-aos-once="true" class="aboutmetitle">
+            Projects
+        </div>
+        <!-- Icons -->
             <div data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true" class="" style="margin-bottom:20px;">
                 <a href="https://github.com/c-ent?tab=repositories&language=python" target="_blank"><img alt="Python" src="https://img.shields.io/badge/-Python-3572A5?style=flat-square&logo=Python&logoColor=white"></a>
         
@@ -144,49 +124,56 @@
 
                 <a href="https://github.com/c-ent?tab=repositories&language=html" target="_blank"><img alt="HTML" src="https://img.shields.io/badge/-HTML-e34c26?style=flat-square&logo=HTML5&logoColor=white"></a>
 
-                
                 <a href="https://github.com/c-ent?tab=repositories&language=php" target="_blank"><img alt="HTML" src="https://img.shields.io/badge/-PHP-e34c26?style=flat-square&logo=PHP&logoColor=white"></a>
 
                 <a href="https://github.com/c-ent?tab=repositories&language=javascript" target="_blank"><img alt="HTML" src="https://img.shields.io/badge/-javascript-e34c26?style=flat-square&logo=javascript&logoColor=white"></a>
             </div>
+        <!-- Icons end -->
+
+        <!-- Projects List -->
 
             <div data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true"  class="working-on" >
                 <p class="warn-working"></p>
                 <a href="https://c-ent.github.io/To-Do-List" target="_blank" ><img class="projects" style="margin:15px 0px 15px 0px;"src="https://github-readme-stats.vercel.app/api/pin/?username=c-ent&repo=To-Do-List&theme=dark&show_icons=true" /></a>
-
             </div>
-            <!-- <div class="projectsdescript">
+
+            <div data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true"  class="mb-5" >
                 
-            <mark data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true"  class="warn-working"">School Projects</mark>
-               
-               
+                    <p class="projectstitle">Web Design</p>
+                    <div class="d-flex projectslistdiv">
+                        <div class="mainprojlistdiv d-flex flex-column mb-5">
+                            <a class="projecttitle">
+                                <img class="project-image"src="src/img/projects/traveljapanlandingpagedesktop2.PNG">
+                            </a>
 
+                            <a class="visitsitebutton"href="https://c-ent.github.io/LandingPage-Japan/">
+                                Visit Site
+                            </a>
+                            <p class="projectstitle">
+                                Travel - Japan Landing Page
+                            </p>
+                            <p>
+                                A simple landing page i made. (WIP)
+                            </p>
+                        </div>
+
+                        <div class="mainprojlistdiv d-flex flex-column nextproject">
+                            <a class="projecttitle text-align-center">
+                                <img class="nextprojimg"src="src/img/loading.gif">
+                            </a>
+                            <p class="projectstitle">
+                                Next up....?
+                            </p>
+                        </div>
+                    </div>
             </div>
-            
-        <div data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true"  class="projectsdiv" style="margin:15px 0px 15px 0px;">
-       
-                <a href="https://github.com/c-ent/RetroSnake" target="_blank"><img class="projects" src="https://github-readme-stats.vercel.app/api/pin/?username=c-ent&repo=RetroSnake&theme=moltack&show_icons=true" /></a>
-            
-           
-                <a href="https://github.com/c-ent/SpaceInvaders" target="_blank"><img class="projects" src="https://github-readme-stats.vercel.app/api/pin/?username=c-ent&repo=SpaceInvaders&theme=moltack&show_icons=true" /></a>
-        
-            
-                <a href="https://github.com/c-ent/crudwebdev" target="_blank"><img class="projects" src="https://github-readme-stats.vercel.app/api/pin/?username=c-ent&repo=crudwebdev&theme=moltack&show_icons=true" /></a>
+        <!-- Projects List End -->
 
-               
-        </div> -->
-<!-- 
-        <div class="easter-egg-div">
-            <p class="doggo-text-warn">Dont touch/click the workin doggo</p>
-            <p><button class="easter-egg-button" onclick="clickCounter()" type="button"><img class="dog-image" src="src/img/annoyingdog.gif"></button></p>
-            <p class="doggo-times"  id="result"></p>
-        </div>
-       -->
+</div>
 
+<!-- End of Container2 -->
 
-    </div>
-
-    
+    <!-- Footer Section -->
     <div class="footer-div">
             
         <p class="credit">
@@ -198,12 +185,11 @@
     </br>
         <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fc-ent.github.io&count_bg=%23000000&title_bg=%239C9C9C&icon=codeforces.svg&icon_color=%23000000&title=ヒット&edge_flat=true"/></a>
         
-
     </div>
+    <!-- End of Footer -->
 
+    <!-- Doggo Effects -->
     <div id="dogpopid"class="dogpopdiv">
-               
-            <p></p>
              <img class="dogpopimg1"src="/src/img/dogpop.gif">
 
              <img class="dogpopimg2"src="/src/img/dogpop.gif">
@@ -214,15 +200,13 @@
   
             <button id="closedogid"onclick="clodedogid()"class="closedog">&#10006</button>
     </div>
-
-  
-
+    <!-- Doggo Effects end -->
 
 
-</div>
 
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1511389767615927"
+<!-- SCRIPTS -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1511389767615927"
 crossorigin="anonymous"></script>
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -231,8 +215,6 @@ crossorigin="anonymous"></script>
   AOS.init();
   
 </script>
-</body>
-
 <script>
     function myFunction() {
     var element = document.body;
@@ -243,12 +225,11 @@ crossorigin="anonymous"></script>
 
         var element = document.getElementById("header-div");
         element.classList.toggle("header-div1");
-
-       
-
-
-
     }
-    </script>
+</script>
+<!-- End of Scripts -->
+</body>
+
+
 
 </html>
