@@ -1,0 +1,29 @@
+.navbar{
+    background-color: #00000000 !important;
+}
+
+.offcanvas{
+    --bs-offcanvas-width: min(300px) !important;
+    --bs-offcanvas-bg: rgb(0, 0, 0) !important;
+
+
+    
+}
+
+.nav-link{
+    font-size: 25px;
+}
+
+.nav-link{
+    color: #fff !important;
+    font-family: Inter;
+    font-weight: 500;
+    margin: 0 20px 0 20px;
+}
+
+
+.navbar-toggler {
+    border: none !important;
+    box-shadow: none !important;
+   ;
+}

@@ -1,0 +1,297 @@
+body{
+    background-color: black;
+    position: relative;
+    padding: 50px;
+    background-image: url('/src/img/bg.png');
+
+    background-size: cover; 
+    background-repeat: no-repeat; /* Do not repeat the image */
+
+
+   
+    
+}
+
+p{
+    margin: 0;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url('../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+@font-face {
+    font-family: Roboto Mono;
+    src: url('/fonts/RobotoMono/RobotoMono-VariableFont_wght.ttf');
+}
+
+
+.bluecircle{
+position: absolute;
+width: 300px;
+height: 250px;
+left: 44px;
+top: 100px;
+background: linear-gradient(138.61deg, rgba(0, 163, 255, 0.1275) 20.92%, rgba(0, 163, 255, 0) 81.62%);
+filter: blur(50px);
+}
+
+.greencircle{
+    position: absolute;
+width: 300px;
+height: 250px;
+left: 500px;
+top: 450px;
+
+background: linear-gradient(138.61deg, rgba(0, 255, 56, 0.1275) 20.92%, rgba(0, 255, 87, 0) 81.62%);
+box-shadow: inset 40px 4px 4px rgba(0, 0, 0, 0.25);
+filter: blur(50px);
+}
+
+.redcircle{
+    position: absolute;
+width: 300px;
+height: 250px;
+left: 1000px;
+top: 274px;
+
+background: linear-gradient(138.61deg, rgba(255, 0, 0, 0.1275) 20.92%, rgba(255, 0, 0, 0) 81.62%);
+filter: blur(50px);
+}
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+/*  */
+}
+
+.banner-left{
+    height: 400px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.hello-text,.name-text{
+   
+    font-size: 50px;
+   
+    font-weight: 700;
+}
+
+.hello-text{
+    color: #235DF1;
+    font-family: Roboto Mono;
+   
+
+}
+
+.name-text{
+     font-family: Inter;
+color: white;
+}
+
+.dlcv{
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    font-family: Inter;
+    width: 200px;
+    height: 35px;
+}
+
+.descript-text{
+    color: #C6C6C6;
+    font-size:13px;
+    font-weight: 500;
+}
+
+.banner-right{
+    height: 400px;
+    width: 45%;
+
+    display: flex;
+    justify-content: left;
+    
+}
+
+.pcgif{
+    width: 100%;
+}
+
+.glass-div{
+    width: 400px; /* set width of child div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+/* About Section */
+
+.about-title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.about-text{
+    font-family: Roboto Mono;
+    font-weight: medium;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.abt-txt-div{
+    padding: 0px 70px 0px 70px;
+    margin-top: 20px;
+}
+    
+/* End of About */
+
+/* Start of Project */
+.projects-title{
+ 
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        color: #FFFFFF;
+        margin-bottom: 0;
+  
+
+}
+
+
+.conediv{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.cone{
+    width:10%;
+}
+
+/* End of Project */
+
+
+/* Start of Footer */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.madebyme{
+    font-family: Inter;
+    font-weight: bold;
+    color:#FFFFFF;
+    font-size: 15px;
+}
+
+
+/*  */
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    body{
+        padding: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    body{
+        margin:25px;
+        background-image: url('/src/img/bgmobile.png');
+        
+    }
+
+    .banner-section{
+        display: flex;
+        justify-content: space-between;
+    /*  */
+    }
+    
+    .banner-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hello-text,.name-text{
+        font-size: 65px;
+    }
+    .descript-text{
+        font-size: 20px;
+    }
+
+    
+    .banner-section{
+        flex-direction: column;
+    }
+
+    .banner-left{
+        height: 550px;
+        width: 100%;
+        align-items: start;
+        margin-bottom: 0 !important;
+    }
+
+    .banner-right{
+        width: 100%;
+        height: 200px;
+        margin: 0px 0px 80px 0px;
+        justify-content: center;
+    }
+    .glass-div{
+        display: flex;
+        align-items: center;
+
+        
+    }
+
+
+    .dlcv{
+      
+        border-radius: 50px;
+        border: 1px solid white;
+        font-weight: bold;
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .pcgif{
+        width: 400px;
+    }
+
+    /* About */
+    .abt-txt-div{
+        padding: 0px;
+      
+    }
+    /*  */
+
+}
