@@ -1,579 +1,297 @@
-
-.dark-mode {
-    background: linear-gradient(to bottom, rgb(19,19,19),rgb(0, 0, 0));
-    color: white;
-}
-.white{
-    color: white !important;
-}
-
-
-.header-div1{
-
-    background-color: rgba(10, 10,10, 0.299) !important;
-
-}
-
-a {
-    color:inherit !important;
-    text-decoration: none !important;
-}
 body{
-    margin:0;
-    background-color: rgb(255, 255, 241);
+    background-color: black;
+    position: relative;
+    padding: 50px;
+    background-image: url('/src/img/bg.png');
+
+    background-size: cover; 
+    background-repeat: no-repeat; /* Do not repeat the image */
+
+
+   
     
 }
 
-.lamp{
-    width: 40px;
+p{
+    margin: 0;
 }
 
-/* intro efects */
-#loading{
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  text-align: center;
-  z-index: 99;
-
-  font-family: "Montserrat";
-  font-weight:700;
-  font-size:30px;
-  color:#141414
+h1{
+    margin-bottom: 0;
 }
 
-.loading-img{
-    width: 80px;
-    height: 80px;
+@font-face {
+    font-family: Inter;
+    src: url('../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf');
 }
 
+@font-face {
+    font-family: Roboto Mono;
+    src: url('/fonts/RobotoMono/RobotoMono-VariableFont_wght.ttf');
+}
+
+
+.bluecircle{
+position: absolute;
+width: 300px;
+height: 250px;
+left: 44px;
+top: 100px;
+background: linear-gradient(138.61deg, rgba(0, 163, 255, 0.1275) 20.92%, rgba(0, 163, 255, 0) 81.62%);
+filter: blur(50px);
+}
+
+.greencircle{
+    position: absolute;
+width: 300px;
+height: 250px;
+left: 500px;
+top: 450px;
+
+background: linear-gradient(138.61deg, rgba(0, 255, 56, 0.1275) 20.92%, rgba(0, 255, 87, 0) 81.62%);
+box-shadow: inset 40px 4px 4px rgba(0, 0, 0, 0.25);
+filter: blur(50px);
+}
+
+.redcircle{
+    position: absolute;
+width: 300px;
+height: 250px;
+left: 1000px;
+top: 274px;
+
+background: linear-gradient(138.61deg, rgba(255, 0, 0, 0.1275) 20.92%, rgba(255, 0, 0, 0) 81.62%);
+filter: blur(50px);
+}
+.banner-section{
+    display: flex;
+    justify-content: space-between;
 /*  */
-.logo-text{
-    font-family: "Montserrat";
-    font-weight:700;
-    font-size:30px;
-    margin: 0;
 }
 
-.easter-egg-button{
-    background-color:transparent;
-    border: none;
-}
-.container1{
-
-    /* margin:2% 10% 0% 10%; */
-    margin:auto;
-    padding:0% 10% 0% 10%;
-    max-width: 2560px;
-
-
-}
-.logo-div,.icons-div{
-    width:50%;
-    padding:0% 10% 0% 10%;
-}
-.logo-div{
+.banner-left{
+    height: 400px;
+    width: 45%;
     display: flex;
-    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
 }
-.icons-div{
-    text-align: right;
+
+.hello-text,.name-text{
+   
+    font-size: 50px;
+   
+    font-weight: 700;
 }
-.header-div{
+
+.hello-text{
+    color: #235DF1;
+    font-family: Roboto Mono;
+   
+
+}
+
+.name-text{
+     font-family: Inter;
+color: white;
+}
+
+.dlcv{
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    font-family: Inter;
+    width: 200px;
+    height: 35px;
+}
+
+.descript-text{
+    color: #C6C6C6;
+    font-size:13px;
+    font-weight: 500;
+}
+
+.banner-right{
+    height: 400px;
+    width: 45%;
+
     display: flex;
+    justify-content: left;
+    
+}
+
+.pcgif{
     width: 100%;
-    height: 75px;
-    align-items: center;
-    position: fixed;
-    /* background-color: rgba(255, 255, 255, 0.785); */
-    background-color: rgba(255, 255, 255, 0.299);
-    top:0;
-    z-index: 99;
-}
-.clickmetxt{
-    margin: 0;
-    /* animation: blinker 2s infinite; */
 }
 
-
-
-
-
-.greetbox{
-    margin-top: 5%;
-    margin-bottom: 2%;
+.glass-div{
+    width: 400px; /* set width of child div */
     display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+/* About Section */
+
+.about-title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.about-text{
+    font-family: Roboto Mono;
+    font-weight: medium;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.abt-txt-div{
+    padding: 0px 70px 0px 70px;
+    margin-top: 20px;
+}
+    
+/* End of About */
+
+/* Start of Project */
+.projects-title{
+ 
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        color: #FFFFFF;
+        margin-bottom: 0;
   
 
-
 }
-.greetdiv{
-    position: relative;
-    margin-top: 120px;
-    width:50%;
-    height:100% ;
+
+
+.conediv{
     display: flex;
-    flex-direction: column;
-
-    overflow: hidden;
-}
-.greet,.subgreet{
-    font-family: "Montserrat";
-    font-weight:700;
-    font-size: 3.5rem;
-    margin:0 0 5px 0;
-}
-
-
-.greetimg{
-    width: 100%;
-
-}
-
-
-@keyframes fly{
-    0%{
-        transform: translateY(0px);
-    }
-    50%{
-        transform: translateY(20px);
-    }
-
-    
-}
-
-.greetimgmain{
-    width:50%;
-    display: flex;
-    cursor: pointer;
-    padding-top: 120px;
-    flex-direction: column;
     justify-content: center;
-    font-family: VT323;
-    text-align: center;
-    font-size: 40px;
-
+    margin-top: 20px;
+}
+.cone{
+    width:10%;
 }
 
-.subgreet1,.highlight-descript{
-    color:#00588c;
-}
+/* End of Project */
 
 
+/* Start of Footer */
 
-.descriptxt{
-    font-family: "Montserrat";
-    color:#7B7D84;
-    font-size: 1.55rem;
-    margin-bottom: 0px;
-    margin: none;
-}
-
-.aboutmetitle{
-    font-family: "Montserrat";
-    font-weight: 600;
-    font-size: 80px;
-
-}
-
-.aboutdescriptdiv{
+.footer{
     display: flex;
-    flex-direction: row;
-  gap: 50px;
-}
-.aboutdescripttxt{
-    font-family: "Open Sans";
-    font-weight:500 ;
-    font-size:20px;
-    text-align: justify;
-}
-.aboutdescript{
-    width: 50%;
-    margin-bottom: 2%;
-    
-}
-
-.dlresume{
-    padding: 15px;
-    border-style: solid;
-    border-width: 2px;
-}
-
-.dlresume:hover{
-    background-color: #00588c;
-    color: white;
-}
-
-.dlresume:active{
-    background-color: #00588c;
-    color: white;
-}
-.resumediv{
-    text-align: center;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    font-family: "Open Sans";
-    font-weight:500 ;
-    font-size: 20px;
-
+    margin-top: 50px;
 }
 
-
-.easter-egg-div{
-    width:100%;
-    text-align: center;
-    
-}
-.dog-image{
-    width:300px;
-    height: 300px;
-    background-color: white;
-}
-.doggo-text-warn{
-    font-family: 'Montserrat';
-    font-weight: 800;
-    font-size: 25px;
-    text-align: center;
-
-}
-
-.doggo-times{
-    font-family: 'Montserrat';
-    font-weight: 800;
-    font-size: 20px;
-    color:red;
-}
-
-.projectsdescript{
-    font-family: "Open Sans";
-    font-weight:500 ;
-}
-.warn{
-    background-color: aqua;
+.madebyme{
+    font-family: Inter;
     font-weight: bold;
-    font-size: 25px;
-}
-.working-on{
-    width: 50%;
-    margin-bottom: 3%;
-}
-.warn-working{
-
-    font-family: "Open Sans";
-    font-weight:500 ;
-    font-size: 25px;
-    margin:3% 0% 3% 0%;
-}
-.sub-descrip{
+    color:#FFFFFF;
     font-size: 15px;
-    text-align: left;
-    padding: 0% 15% 3% 15%;
-}
-.projectsdiv{
-    display: grid;
-    grid-template-columns: auto auto ;
-    column-gap: 20px;
-}
-.projects{
-    width: 100%;
-}
-.credit{
-    text-align: center;
-    font-family: "Montserrat";
-    font-weight:500 ;
-    color: white;
-    margin:0;
-    padding: 10px;
 }
 
-.dogpopdiv{
-    position: fixed;
-    display: none;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.765);
-    z-index: 99;
-    animation: flickinglights linear 0.8s infinite;
-   
-}
-@keyframes flickinglights {
-    0%{
-        background-color:rgba(153, 205, 50, 0.856);
-    }
-    50%{
-        background-color:rgba(76, 0, 130, 0.856);
-    }
-    100%{
-        background-color: rgb(255, 43, 78,0.856);
+
+/*  */
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    body{
+        padding: 0px !important;
     }
 }
 
-
-.closedog{
-    display: none;
-    margin: 20px;
-    width: 50px;
-    height: 50px;
-    border-radius: 360px;
-    border: none;
-    position: fixed;
-    right: 0;
-    font-size: 20px;
-    
-}
-
-.dogpopimg1{
-    position:fixed;
-    top: 0vh;
-    right: -20vw;
-    width:200px;
-    height: 200px;
-    animation: slidingdog1 5s;
-    animation-iteration-count:infinite;
-}
-
-@keyframes slidingdog1 {
-    50%{
-        transform: translateX(-40vw);
-    }
-    100%{
-        transform: translateX(-120vw);
-    }
-}
-
-.dogpopimg2{
-    position:fixed;
-    top: 20vh;
-    left: -20vw;
-    width:400px;
-    height: 400px;
-    animation: slidingdog2 10s;
-    animation-iteration-count:infinite;
-}
-
-@keyframes slidingdog2 {
-    50%{
-        transform: translateX(60vw);
-    }
-    100%{
-        transform: translateX(120vw);
-    }
-}
-
-.dogpopimg3{
-    position:fixed;
-    top: 50vh;
-    left: -20vw;
-    width:200px;
-    height: 200px;
-    animation: slidingdog3 3s;
-    animation-iteration-count:infinite;
-}
-
-@keyframes slidingdog3 {
-    50%{
-        transform: translateX(55vw);
-    }
-    100%{
-        transform: translateX(120vw);
-    }
-}
-
-.dogpopimg4{
-    position:fixed;
-    top: 60vh;
-    right: -100vw;
-    width:500px;
-    height: 500px;
-    animation: slidingdog4 5s;
-    animation-iteration-count:infinite;
-}
-
-@keyframes slidingdog4 {
-    50%{
-        transform: translateX(-100vw);
-    }
-    100%{
-        transform: translateX(-200vw);
-    }
-}
-
-.footer-div{
-    background-color:#141414;
-    margin: 0;
-    width:100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-
-
-
-
-@media only screen and (max-width: 600px) {
-
-
-
-    .icons-div{
-
-        padding:0% 10% 0% 0%;
-    }
-
-
-    .greetdiv,.greetimgmain,.greetimgmainpxl{
-        width:100%;
+@media only screen and (max-width: 576px) {
+    body{
+        margin:25px;
+        background-image: url('/src/img/bgmobile.png');
         
-       
+    }
+
+    .banner-section{
+        display: flex;
+        justify-content: space-between;
+    /*  */
     }
     
-   
-
-    .greetdiv{
-        height: 60%;
- 
-    }
-
-    .greetimgmain,.greetimgmainpxl{
-        padding: 0;
-        margin: 0;
-        height: 40%;
-    }
-
-    .greetimg{
-        width: 40vh;
-    
-    }
-
-    .greetimgpxl{
-        width:30vh;
-    }
-
-    .clickmetxt{
-        font-size: 25px;
-    }
-
-    
-    .greetbox{
+    .banner-left{
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-
-    .aboutdescriptdiv{
-        display: block;
+    
+    .hello-text,.name-text{
+        font-size: 65px;
     }
-    .aboutdescript{
-       
-        width: 100%;
-        font-size:19px;
-    }
-    .aboutdescripttxt{
-        font-size: 15px;
-    }
-    /* .greetimgmain{
-        display: none;
-    } */
-
-    .descriptxt{
+    .descript-text{
         font-size: 20px;
     }
 
-    .aboutmetitle{
-        font-size:40px;
-    }
-    .descripgreet{
-        
-        font-size: 25px;
-    }
-    .projectsdiv{
-        display: grid;
-        grid-template-columns: auto  ;
-        column-gap: 20px;
-    }
-    .working-on{
-        width: 100%;
-    }
-
-    .warn-working{
-
-        font-size: 15px;
- 
-    }
-  }
-@media only screen and (max-width: 600px) {
     
-    .greet,.subgreet{
-        font-size: 35px;
+    .banner-section{
+        flex-direction: column;
     }
 
-    .descripgreet{
-        font-size: 25px;
-        height: 100%;
+    .banner-left{
+        height: 550px;
+        width: 100%;
+        align-items: start;
+        margin-bottom: 0 !important;
     }
 
-    .greetpxl,.subgreetpxl{
-        font-size: 35px;
+    .banner-right{
+        width: 100%;
+        height: 200px;
+        margin: 0px 0px 80px 0px;
+        justify-content: center;
+    }
+    .glass-div{
+        display: flex;
+        align-items: center;
+
+        
     }
 
 
-   .dogpopimg1{
-    animation: slidingdog1 4s;
-    animation-iteration-count:infinite;
+    .dlcv{
+      
+        border-radius: 50px;
+        border: 1px solid white;
+        font-weight: bold;
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .pcgif{
+        width: 400px;
+    }
+
+    /* About */
+    .abt-txt-div{
+        padding: 0px;
+      
+    }
+    /*  */
+
 }
-
-.dogpopimg2{
-    animation: slidingdog2 3s;
-    animation-iteration-count:infinite;
-}
-
-
-.dogpopimg3{
-    animation: slidingdog3 6s;
-    animation-iteration-count:infinite;
-}
-
-.dogpopimg4{
-    animation: slidingdog4 s;
-    animation-iteration-count:infinite;
-}
-
-.projectslistdiv{
-    flex-direction: column;
-
-}
-
-.mainprojlistdiv{
-    width: 100% ;
-}
-
-  @media only screen and (max-width: 390px) {
-
-    .greet,.subgreet{
-        font-size: 30px;
-    }
-
-    .descriptxt{
-        font-size: 15px;
-    }
-
-    .greetpxl,.subgreetpxl{
-        font-size: 30px;
-    }
-
-    .descriptxtpxl{
-        font-size: 15px;
-    }
-
-  }
-
-
-
