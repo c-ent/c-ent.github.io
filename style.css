@@ -6,7 +6,7 @@ body{
 
     background-size: cover; 
     background-repeat: no-repeat; /* Do not repeat the image */
-
+    cursor: url("/src/img/"), auto;
 
    
     
@@ -31,38 +31,6 @@ h1{
 }
 
 
-.bluecircle{
-position: absolute;
-width: 300px;
-height: 250px;
-left: 44px;
-top: 100px;
-background: linear-gradient(138.61deg, rgba(0, 163, 255, 0.1275) 20.92%, rgba(0, 163, 255, 0) 81.62%);
-filter: blur(50px);
-}
-
-.greencircle{
-    position: absolute;
-width: 300px;
-height: 250px;
-left: 500px;
-top: 450px;
-
-background: linear-gradient(138.61deg, rgba(0, 255, 56, 0.1275) 20.92%, rgba(0, 255, 87, 0) 81.62%);
-box-shadow: inset 40px 4px 4px rgba(0, 0, 0, 0.25);
-filter: blur(50px);
-}
-
-.redcircle{
-    position: absolute;
-width: 300px;
-height: 250px;
-left: 1000px;
-top: 274px;
-
-background: linear-gradient(138.61deg, rgba(255, 0, 0, 0.1275) 20.92%, rgba(255, 0, 0, 0) 81.62%);
-filter: blur(50px);
-}
 .banner-section{
     display: flex;
     justify-content: space-between;
