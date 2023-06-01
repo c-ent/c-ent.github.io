@@ -75,10 +75,19 @@ color: white;
     height: 35px;
 }
 
+
+.dlcv:hover{
+    background-color: #161616;
+
+
+}
+
 .descript-text{
     color: #C6C6C6;
     font-size:13px;
     font-weight: 500;
+    width: 200px;
+    text-align: right;
 }
 
 .banner-right{
@@ -213,6 +222,8 @@ color: white;
     }
     .descript-text{
         font-size: 20px;
+        width: 380px;
+        text-align: left;
     }
 
     
@@ -250,6 +261,8 @@ color: white;
         height: 50px;
         font-size: 20px;
     }
+
+
 
     .pcgif{
         width: 400px;
