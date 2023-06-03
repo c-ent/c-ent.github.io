@@ -183,7 +183,46 @@ color: white;
 
 
 /*  */
+/* Proj card */
 
+.proj-card{
+    background: rgba(16, 16, 16, 0.6);
+    border: none;
+    border-radius: 20px;
+    height: 200px;
+    color:white;
+    position: relative;
+    
+
+}
+
+.proj-card-title{
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.proj-card-btns{
+    position: absolute;
+    bottom:20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.proj-card-vbtn{
+    background: #FCD53F;
+border-radius: 40px;
+width: 120px;
+height: 35px;
+border: none;
+margin-right: 15px;
+}
+
+
+/*  */
 
 
 
@@ -222,7 +261,7 @@ color: white;
     }
     .descript-text{
         font-size: 20px;
-        width: 380px;
+        width: 300px;
         text-align: left;
     }
 
