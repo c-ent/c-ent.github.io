@@ -1,3 +1,14 @@
+@font-face {
+    font-family: Inter;
+    src: url('../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+@font-face {
+    font-family: Roboto Mono;
+    src: url('/fonts/RobotoMono/RobotoMono-VariableFont_wght.ttf');
+}
+
+
 body{
     background-color: black;
     position: relative;
@@ -20,15 +31,7 @@ h1{
     margin-bottom: 0;
 }
 
-@font-face {
-    font-family: Inter;
-    src: url('../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf');
-}
 
-@font-face {
-    font-family: Roboto Mono;
-    src: url('/fonts/RobotoMono/RobotoMono-VariableFont_wght.ttf');
-}
 
 
 .banner-section{
@@ -192,7 +195,10 @@ color: white;
     height: 200px;
     color:white;
     position: relative;
-    
+}
+
+.proj-card:hover{
+    background: rgb(16, 16, 16);
 
 }
 
@@ -213,12 +219,18 @@ color: white;
 }
 
 .proj-card-vbtn{
-    background: #FCD53F;
+    background: #ffcf11;
 border-radius: 40px;
 width: 120px;
 height: 35px;
 border: none;
 margin-right: 15px;
+}
+
+.proj-card-vbtn:hover{
+    background: rgb(74, 222, 128);
+    
+  
 }
 
 
