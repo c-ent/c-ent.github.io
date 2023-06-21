@@ -301,7 +301,7 @@ margin-right: 15px;
     }
     
     .hello-text,.name-text{
-        font-size: 65px;
+        font-size: 60px;
     }
     .descript-text{
         font-size: 17px;
@@ -315,7 +315,7 @@ margin-right: 15px;
     }
 
     .banner-left{
-        height: 500px;
+        height: 430px;
         width: 100%;
         align-items: start;
         margin-bottom: 0 !important;
