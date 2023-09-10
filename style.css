@@ -44,12 +44,12 @@
 body{
     background-color: black;
     position: relative;
-    padding: 50px;
+    padding: 30px;
     background-image: url('/src/img/bg.png');
 
     background-size: cover; 
     background-repeat: no-repeat; /* Do not repeat the image */
-    cursor: url("/src/img/cursor.png"), auto;
+
 
    
     
@@ -64,11 +64,16 @@ h1{
 }
 
 
+section{
+    margin-bottom: 130px;
 
+}
 
 .banner-section{
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
+    
 /*  */
 }
 
@@ -83,14 +88,19 @@ h1{
 
 .hello-text,.name-text{
    
-    font-size: 50px;
+    font-size: 80px;
    
     font-weight: 700;
+}
+
+.hello-div{
+    height: 100px;
 }
 
 .hello-text{
     color: #235DF1;
     font-family: Roboto Mono;
+  
    
 
 }
@@ -101,27 +111,31 @@ color: white;
 }
 
 .dlcv{
-    background-color: transparent;
+   
     border-radius: 20px;
-    border: 1px solid white;
+    border: 1px solid rgba(85, 85, 85, 0.685);
     color: white;
+    background-color: #18181815;
     font-family: Inter;
+    font-weight: bold;
     width: 200px;
     height: 35px;
 }
 
 
 .dlcv:hover{
-    background-color: #161616;
+    background-color: #f1f1f1;
+    color: rgb(0, 0, 0);
 
 
 }
 
 .descript-text{
     color: #C6C6C6;
-    font-size:13px;
+    font-size:17px;
     font-weight: 500;
-    width: 200px;
+    /* width: 405px; */
+    width: 500px;
     text-align: right;
 }
 
@@ -267,7 +281,19 @@ margin-right: 15px;
 
 
 /*  */
+@media only screen and (max-width: 1280px) {
 
+    .hello-text,.name-text{
+        font-size: 70px;
+    }
+
+    .descript-text{
+        font-size:15px;
+
+        /* width: 405px; */
+        width: 330px;
+    }
+}
 
 
 
@@ -278,6 +304,24 @@ margin-right: 15px;
     body{
         padding: 0px !important;
     }
+
+ 
+
+    .hello-text,.name-text{
+        font-size: 48px;
+    }
+    .hello-div{
+        height: 70px;
+    }
+    
+    .descript-text{
+        font-size:14px;
+
+        /* width: 405px; */
+        width: 230px;
+    }
+
+ 
 }
 
 @media only screen and (max-width: 576px) {
@@ -286,10 +330,11 @@ margin-right: 15px;
         background-image: url('/src/img/bgmobile1.png');
         
     }
-
+   
     .banner-section{
         display: flex;
         justify-content: space-between;
+    
     /*  */
     }
     
@@ -299,13 +344,13 @@ margin-right: 15px;
         justify-content: center;
         align-items: center;
     }
-    
+ 
     .hello-text,.name-text{
         font-size: 55px;
     }
     .descript-text{
-        font-size: 17px;
-        width: 300px;
+        font-size: 15px;
+        width: 360px;
         text-align: left;
     }
 
@@ -338,8 +383,6 @@ margin-right: 15px;
     .dlcv{
       
         border-radius: 50px;
-        border: 1px solid white;
-        font-weight: bold;
         width: 250px;
         height: 42px;
         font-size: 20px;
