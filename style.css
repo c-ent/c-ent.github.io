@@ -238,9 +238,10 @@ color: white;
     background: rgba(16, 16, 16, 0.6);
     border: none;
     border-radius: 20px;
-    height: 200px;
+    height: 100%;
     color:white;
     position: relative;
+    margin-bottom: 40px;
 }
 
 .proj-card:hover{
