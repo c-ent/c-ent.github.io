@@ -27,3 +27,7 @@ var typed2 = new Typed('#greetings', {
 
 
 
+
+
+
+

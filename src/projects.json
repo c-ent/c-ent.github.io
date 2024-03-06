@@ -1,0 +1,10 @@
+{
+    "proj-card-img": "/src/img/projects/odsz.png",
+    "proj-card-title": "Pawthway",
+    "proj-card-desc": "Pawthway is a website connecting lost pets with their families. Users can easily share info about missing or found pets to increase the chances of reuniting beloved pets with their owners.",
+    "tech-items": ["Tailwind", "ReactJS", "Supabase", "NodeJS", "MaterialUI"],
+    "proj-card-btns": {
+        "view": "https://pawthway.vercel.app/",
+        "github": "https://pawthway.vercel.app/"
+    }
+}
