@@ -75,6 +75,11 @@ section{
 
 }
 
+.nav-link{
+    font-family: Poppins !important;
+    font-size: 18px !important;
+}
+
 .banner-section{
     margin-top: 30px;
     display: flex;
@@ -106,14 +111,11 @@ section{
 .hello-text{
     color: #235DF1;
     font-family: Roboto Mono;
-  
-   
-
 }
 
 .name-text{
-     font-family: Inter;
-color: white;
+     font-family: Poppins;
+        color: white;
 }
 
 .dlcv{
