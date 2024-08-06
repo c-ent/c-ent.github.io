@@ -1,11 +1,20 @@
 .navbar{
-    background-color: #00000000 !important;
+    background-color: rgba(10, 37, 64, 0.25) !important;
+    backdrop-filter: blur(15px); /* Adjust the blur radius as needed */
+    --tw-backdrop-blur: blur(15px);
+    border-radius: 10px;
+    position: sticky;
+    top:20px;
+    z-index: 999;
+    --tw-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.15);
+    --tw-shadow-colored: inset 0px 1px 1px 0px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
 }
 
 .offcanvas{
     --bs-offcanvas-width: min(300px) !important;
     --bs-offcanvas-bg: rgb(0, 0, 0) !important;
-
+    
 
     
 }

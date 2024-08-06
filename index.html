@@ -45,22 +45,19 @@
       <div class="greencircle"></div> -->
 
   <!-- Header -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class=" container navbar navbar-expand-lg bg-body-tertiary ">
       <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
         </button>
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-body">
-            <ul class="navbar-nav ms-start mb-2 mb-lg-0 w-50">
-              <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-              <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-            </ul>
-          </div>
-        </div>
 
-        <ul class="navbar-nav justify-content-center mb-2 mb-lg-0 w-50 list-group-horizontal">
+        <ul class="navbar-nav ms-start mb-2 mb-lg-0 w-50 d-none d-md-flex">
+          <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        </ul>
+
+        <ul class="navbar-nav justify-content-end align-items-center mb-lg-0 w-50 list-group-horizontal">
           <li class="nav-item"> <a class="nav-link active" aria-current="page" href="https://www.facebook.com/tnec.cent/"><i class="fa-brands fa-facebook" style="color: #ffffff; font-size:30px"></i></a></li>
           <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/elherencarnacion"><i class="fa-brands fa-linkedin-in" style="color: #ffffff; font-size:30px"></i></a></li>
           <li class="nav-item"><a class="nav-link" href="https://github.com/c-ent"><i class="fa-brands fa-github" style="color: #ffffff; font-size:30px"></i></a></li>
@@ -68,7 +65,15 @@
       </div>
 
     </nav>
-
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-body">
+        <ul class="navbar-nav ms-start mb-2 mb-lg-0 w-50">
+          <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        </ul>
+      </div>
+    </div>
     
   <!-- End of Header -->
 
