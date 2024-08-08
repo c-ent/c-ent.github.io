@@ -9,9 +9,11 @@
 }
 
 
-
+p,div{
+    font-family: Poppins;
+}
 #loading{
-    background-color: black;
+    background-color: rgb(24, 24, 24);
     position: fixed;
   display: flex;
   flex-direction: column;
@@ -47,7 +49,7 @@
     z-index: 999 !important;
   }
 body{
-    background-color: black;
+    background-color: rgb(3, 3, 3);
     position: relative;
     padding: 30px;
     background-image: url('/src/img/bg.png');
@@ -137,6 +139,10 @@ section{
     color: rgb(0, 0, 0);
 
 
+}
+
+.about-section{
+    max-width: 700px;
 }
 
 .descript-text{
