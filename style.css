@@ -328,7 +328,11 @@ margin-right: 15px;
 @media only screen and (max-width: 1280px) {
 
     .hello-text,.name-text{
-        font-size: 70px;
+        font-size: 50px;
+        text-align: right;
+    }
+    .hello-div{
+        height: max-content;
     }
 
     .descript-text{
@@ -403,14 +407,14 @@ margin-right: 15px;
  
     .hello-text,.name-text{
         font-size: 55px;
+        text-align: left;
     }
     .descript-text{
         font-size: 15px;
-        width: 360px;
         text-align: left;
     }
 
-    
+
     .banner-section{
         flex-direction: column;
     }
