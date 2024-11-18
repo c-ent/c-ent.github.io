@@ -291,6 +291,7 @@ section{
 
 .proj-card-desc{
     font-size: 15px;
+    min-height: 65px;
 }
 
 .proj-card-btns{
