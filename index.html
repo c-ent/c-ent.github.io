@@ -1,388 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elher Bincent Encarnacion</title>
-    <meta name="description" content="Hello! I am Elher (Cent), a software and web developer student.">
-    <meta name="keywords" content="Elher Encarnacion,Elher Bincent P. Encarnacion,Elher Bincent,Elher,Software,Developer,Web Developer,Software Engineering">
-    <meta name="author" content="Elher Bincent P. Encarnacion">
-    <meta http-equiv='cache-control' content='no-cache'> 
-    <meta http-equiv='expires' content='0'> 
-    <meta http-equiv='pragma' content='no-cache'>
-    <meta property="og:image" content="src/img/face 1.png">
-    <meta name="google-site-verification" content="ogJYyAc1ZPSeggHHRrmZyqfofEGyONlNGinkOBGv3IM" />
-    <link rel='icon' href='src/img/face 1.png'>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Elher Bincent Encarnacion</title>
+      <meta name="description" content="Hello! I am Elher (Cent), a software and web developer student.">
+      <meta name="keywords" content="Elher Encarnacion,Elher Bincent P. Encarnacion,Elher Bincent,Elher,Software,Developer,Web Developer,Software Engineering">
+      <meta name="author" content="Elher Bincent P. Encarnacion">
+      <meta http-equiv='cache-control' content='no-cache'> 
+      <meta http-equiv='expires' content='0'> 
+      <meta http-equiv='pragma' content='no-cache'>
+      <meta property="og:image" content="src/img/face 1.png">
+      <meta name="google-site-verification" content="ogJYyAc1ZPSeggHHRrmZyqfofEGyONlNGinkOBGv3IM" />
+      <link rel='icon' href='src/img/face 1.png'>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="custombootstrap.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/dc06b1f414.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="custombootstrap.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/dc06b1f414.js" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  </head>
+  <body>
+      <!-- Preloader -->
+      <div id="loading">
+        <i class="fa-solid fa-code fa-beat-fade"></i>
+      </div>
 
- 
+      <!-- Header -->
+      <nav class=" container navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container">
+          <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+        </button>
+        
+
+          <ul class="navbar-nav ms-start mb-2 mb-lg-0 w-50 d-none d-md-flex flex-md-row">
+            <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#" style="cursor: none;">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about" style="cursor: none;">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects" style="cursor: none;">Projects</a></li>
+          </ul>
+          
+
+          <ul class="navbar-nav justify-content-end align-items-center mb-lg-0 w-50 list-group-horizontal">
+            <!-- <li class="nav-item"> <a class="nav-link active" aria-current="page" href="https://www.facebook.com/tnec.cent/"><i class="fa-brands fa-facebook" style="color: #ffffff; font-size:30px"></i></a></li> -->
+            <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/elherencarnacion"><i class="fa-brands fa-linkedin-in" style="color: #ffffff; font-size:30px"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="https://github.com/c-ent"><i class="fa-brands fa-github" style="color: #ffffff; font-size:30px"></i></a></li>
+          </ul>
+        </div>
+
+      </nav>
+
+      <!-- Mobile Left Side Menu -->
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-body">
+          <ul class="navbar-nav ms-start mb-2 mb-lg-0 w-50">
+            <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End of Mobile Left Side Menu -->
+      <!-- End of Header -->
     
-
- 
-
-</head>
-<body>
-
-
-  <div id="loading">
-    <i class="fa-solid fa-code fa-beat-fade"></i>
-    
- </div>
-
-      <!-- Body BG -->
-<!-- 
-      <div class="bluecircle"></div>
-      <div class="redcircle"></div>
-      <div class="greencircle"></div> -->
-
-  <!-- Header -->
-  <nav class=" container navbar navbar-expand-lg bg-body-tertiary ">
-      <div class="container">
-        <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-          <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
-      </button>
-      
-
-        <ul class="navbar-nav ms-start mb-2 mb-lg-0 w-50 d-none d-md-flex flex-md-row">
-          <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#" style="cursor: none;">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about" style="cursor: none;">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects" style="cursor: none;">Projects</a></li>
-        </ul>
-        
-
-        <ul class="navbar-nav justify-content-end align-items-center mb-lg-0 w-50 list-group-horizontal">
-          <!-- <li class="nav-item"> <a class="nav-link active" aria-current="page" href="https://www.facebook.com/tnec.cent/"><i class="fa-brands fa-facebook" style="color: #ffffff; font-size:30px"></i></a></li> -->
-          <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/elherencarnacion"><i class="fa-brands fa-linkedin-in" style="color: #ffffff; font-size:30px"></i></a></li>
-          <li class="nav-item"><a class="nav-link" href="https://github.com/c-ent"><i class="fa-brands fa-github" style="color: #ffffff; font-size:30px"></i></a></li>
-        </ul>
-      </div>
-
-    </nav>
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-body">
-        <ul class="navbar-nav ms-start mb-2 mb-lg-0 w-50">
-          <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-        </ul>
-      </div>
+    <!-- Cursor -->
+    <div id="cursor" class="cursor">
+      <div id="cursor-outer"></div>
+      <div id="cursor-inner"></div>
     </div>
-    
-  <!-- End of Header -->
 
-  <div id="cursor" class="cursor">
-    <div id="cursor-outer"></div>
-    <div id="cursor-inner"></div>
-  </div>
-
-  <!-- Banner -->
-  <section class="container banner-section">
-     
-          <div class="banner-left">
-              <div class="hello-div"><h1 class="hello-text" id="greetings"></h1></div>
-              <div><h1 class="name-text mb-2">I'm Elher.</h1></div>
-              <div><button class="dlcv mb-2" onclick="window.location.href='mailto:encarnacionelher@gmail.com';">Contact Me</button></div>
-              <div><p class="descript-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fullstack Web Developer :)</p>
-              </div>
+    <!-- Banner -->
+    <section class="container banner-section">
+      <div class="banner-left">
+          <div class="hello-div"><h1 class="hello-text" id="greetings"></h1></div>
+          <div><h1 class="name-text mb-2">I'm Elher.</h1></div>
+          <div><button class="dlcv mb-2" onclick="window.location.href='mailto:encarnacionelher@gmail.com';">Contact Me</button></div>
+          <div><p class="descript-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fullstack Web Developer :)</p>
           </div>
-          <div class="banner-right">
-              
-              <div class="glass-div">
-                  <img class="pcgif "src="/src/img/pc.png" alt="banner-img">
-              </div>
+      </div>
+      <div class="banner-right">
+          
+          <div class="glass-div">
+              <img class="pcgif "src="/src/img/pc.png" alt="banner-img">
           </div>
-   
-  </section>
-  <!-- End of Banner -->
-
- 
-  <!-- Start of About Section -->
-
-  <section class="container about-section" id="about">
-    <div>
-      <p class="about-title">.About</p>
-    </div>
-    <div class="abt-txt-div">
-      <p class="about-text">
-        As a developer, I enjoy learning about unfamiliar concepts and topics that I find interesting. I always seek opportunities to expand my knowledge and skills to enhance my growth as a developer.
-      </p>
-      <p class="about-text">
-        Outside of software development, I love playing games, watching movies, listening to music and sometimes looking at memes. I find it comforting to have hobbies outside of coding, as they offer a mental break but also inspire fresh perspectives to my coding projects.
-      </p>
-
-    </div>
-  </section>
-
-  <!-- End of about section -->
+      </div>
+    </section>
+    <!-- End of Banner -->
 
 
-  <!-- Start of Projects Section -->
+    <!-- About Section -->
+    <section class="container about-section" id="about">
+      <div>
+        <p class="about-title">.About</p>
+      </div>
+      <div class="abt-txt-div">
+        <p class="about-text">
+          As a developer, I enjoy learning about unfamiliar concepts and topics that I find interesting. I always seek opportunities to expand my knowledge and skills to enhance my growth as a developer.
+        </p>
+        <p class="about-text">
+          Outside of software development, I love playing games, watching movies, listening to music and sometimes looking at memes. I find it comforting to have hobbies outside of coding, as they offer a mental break but also inspire fresh perspectives to my coding projects.
+        </p>
 
-<section class="container projects-section" id="projects">
-  <div>
-    <p class="projects-title">.Personal Projects</p>
-  </div>
+      </div>
+    </section>
+    <!-- End of about section -->
 
 
-
-    <div class="row g-5  m-0 ">
-      <div class="col-md-6 proj-single">
-        <div class="proj-card-img">
-          <img src="/src/img/projects/odsz.png" alt="project-img" class="proj-card-img">
-        </div>
-        <div class="p-4  proj-card space">
-          <div class="proj-card-title">Ods</div>
-  
-          <div class="proj-card-desc"> 
-            An interactive web app where you can take a test to know your personality. Inspired by the book named "The Alchemist" by Paulo Coelho. This web app is designed to know what kind of personality you have.
-          </div>
-          <div class="tech-items">
-            ReactJS, Tailwind, NodeJS, TypeScript, SupaBase
-           </div>
-           
-          <div class="proj-card-btns ">
-            <a href="https://odsz.vercel.app/" target="_blank"><button class="proj-card-vbtn">View</button></a>
-            <a href="https://github.com/c-ent" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff; font-size:30px"></i></a>
-          </div>
-  
-       </div>
-        
+    <!-- Projects Section -->
+    <section class="container projects-section" id="projects">
+      <div>
+        <p class="projects-title">.Personal Projects</p>
       </div>
 
-      <div class="col-md-6 proj-single">
-        <div class="proj-card-img">
-          <img src="/src/img/projects/breeze.png" alt="project-img" class="proj-card-img">
+      <div class="row g-5  m-0 ">
+        <div class="col-md-6 proj-single">
+          <div class="proj-card-img">
+            <img src="/src/img/projects/odsz.png" alt="project-img" class="proj-card-img">
+          </div>
+          <div class="p-4  proj-card space">
+            <div class="proj-card-title">Ods</div>
+            <div class="proj-card-desc"> 
+              An interactive web app where you can take a test to know your personality. Inspired by the book named "The Alchemist" by Paulo Coelho. This web app is designed to know what kind of personality you have.
+            </div>
+            <div class="tech-items">
+              ReactJS, Tailwind, NodeJS, TypeScript, SupaBase
+            </div>
+            <div class="proj-card-btns ">
+              <a href="https://odsz.vercel.app/" target="_blank"><button class="proj-card-vbtn">View</button></a>
+              <a href="https://github.com/c-ent" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff; font-size:30px"></i></a>
+            </div>
+          </div>
         </div>
-        <div class="p-4  proj-card space">
-          <div class="proj-card-title">Breeze</div>
-  
-          <div class="proj-card-desc"> 
-            A user-friendly blog app for creating, interacting, and categorizing posts. Features include commenting, displaying recent, featured, and top blogs for a curated experience.
+
+        <div class="col-md-6 proj-single">
+          <div class="proj-card-img">
+            <img src="/src/img/projects/breeze.png" alt="project-img" class="proj-card-img">
           </div>
-          <div class="tech-items">
-            Tailwind, NextJS, MongoDB, NodeJS, MaterialUI
-           </div>
-           
-          <div class="proj-card-btns ">
-            <a href="https://thebrezee.vercel.app/" target="_blank"><button class="proj-card-vbtn">View</button></a>
-            <a href="https://github.com/c-ent" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff; font-size:30px"></i></a>
+          <div class="p-4  proj-card space">
+            <div class="proj-card-title">Breeze</div>
+            <div class="proj-card-desc"> 
+              A user-friendly blog app for creating, interacting, and categorizing posts. Features include commenting, displaying recent, featured, and top blogs for a curated experience.
+            </div>
+            <div class="tech-items">
+              Tailwind, NextJS, MongoDB, NodeJS, MaterialUI
+            </div>
+            <div class="proj-card-btns ">
+              <a href="https://thebrezee.vercel.app/" target="_blank"><button class="proj-card-vbtn">View</button></a>
+              <a href="https://github.com/c-ent" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff; font-size:30px"></i></a>
+            </div>
           </div>
-  
-       </div>
-        
+        </div>
+
+        <div class="col-md-6 proj-single">
+          <div class="proj-card-img">
+            <img src="/src/img/projects/pawthway.png" alt="project-img" class="proj-card-img">
+          </div>
+          <div class="p-4  proj-card space">
+            <div class="proj-card-title">Pawthway</div>
+            <div class="proj-card-desc"> 
+              Pawthway is a website connecting lost pets with their families. Users can easily share info about missing or found pets to increase the chances of reuniting beloved pets with their owners.
+            </div>
+            <div class="tech-items">
+              Tailwind, ReactJS, Supabase, NodeJS, MaterialUI
+            </div>
+            <div class="proj-card-btns ">
+              <a href="https://pawthway.vercel.app/" target="_blank"><button class="proj-card-vbtn">View</button></a>
+              <a href="https://github.com/c-ent" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff; font-size:30px"></i></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 proj-single">
+          <div class="proj-card-img">
+            <img src="/src/img/projects/nihon.png" alt="project-img" class="proj-card-img">
+          </div>
+          <div class="p-4  proj-card space">
+            <div class="proj-card-title">Hikari</div>
+            <div class="proj-card-desc"> 
+              Hikari is a landing page designed to as a page to showcase the beauty of Japan. With distinct sections for discovery, a visual gallery, this project serves as a portal for users to explore.
+            </div>
+            <div class="tech-items">
+              Bootstrap, HTML, CSS, JS
+            </div>
+            <div class="proj-card-btns ">
+              <a href="https://c-ent.github.io/Hikari/" target="_blank"><button class="proj-card-vbtn">View</button></a>
+              <a href="https://github.com/c-ent" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff; font-size:30px"></i></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 proj-single">
+          <div class="proj-card-img">
+            <img src="/src/img/projects/omoifront.png" alt="project-img" class="proj-card-img">
+          </div>
+          <div class="p-4  proj-card space">
+            <div class="proj-card-title">Omoi</div>
+            <div class="proj-card-desc"> 
+              A user-friendly app for note-taking and organization. With embedded authentication, it enables users to efficiently preserve and structure their thoughts, ideas, and tasks.
+            </div>
+            <div class="tech-items">
+              Tailwind, NextJS, MongoDB, NodeJS, MaterialUI, RestfulAPI, WYSIWYG
+            </div>
+            <div class="proj-card-btns ">
+              <a href="https://omoi.vercel.app/" target="_blank"><button class="proj-card-vbtn">View</button></a>
+              <a href="https://github.com/c-ent" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff; font-size:30px"></i></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 proj-single">
+          <div class="proj-card-img">
+            <img src="/src/img/projects/cornelia.png" alt="project-img" class="proj-card-img">
+          </div>
+          <div class="p-4  proj-card space">
+            <div class="proj-card-title">Cornelia</div>
+            <div class="proj-card-desc"> 
+              A Laravel-based Library Management System facilitating book borrowing and returns. Set user-specific limits, view transaction history, manage books, and check user activities for efficient library administration.
+            </div>
+            <div class="tech-items">
+              PHP, Bootstrap, Laravel, MySQL
+            </div>
+            <div class="proj-card-btns ">
+              <a href="#" target="_blank"><button class="proj-card-vbtn">View</button></a>
+              <a href="https://github.com/c-ent" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff; font-size:30px"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 proj-single">
+          <div class="proj-card-img">
+            <img src="/src/img/projects/heliantus.png" alt="project-img" class="proj-card-img" style="filter: blur(3px);">
+          </div>
+          <div class="p-4  proj-card space">
+            <div class="proj-card-title">Helianthus</div>
+            <div class="proj-card-desc"> 
+              In Progress
+            </div>
+            <!-- <div class="tech-items">
+              ReactJS, Tailwind, NodeJS
+            </div> -->
+            <!-- <div class="proj-card-btns ">
+              <a href="#" target="_blank"><button class="proj-card-vbtn">In Progress</button></a>
+              <a href="#" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff; font-size:30px"></i></a>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="col-md-6 proj-single">
+          <div class="proj-card-img">
+            <img src="/src/img/projects/pending.png" alt="project-img" class="proj-card-img" style="filter: blur(3px);">
+          </div>
+          <div class="p-4  proj-card space">
+            <div class="proj-card-title">Savyge</div>
+            <div class="proj-card-desc"> 
+              In Progress
+            </div>
+            <!-- <div class="tech-items">
+              ReactJS, Tailwind, NodeJS
+            </div> -->
+            <!-- <div class="proj-card-btns ">
+              <a href="#" target="_blank"><button class="proj-card-vbtn">In Progress</button></a>
+              <a href="#" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff; font-size:30px"></i></a>
+            </div> -->
+          </div>
+        </div>
       </div>
+    </section>
+    <!-- End of Projects Section  -->
 
 
-      <div class="col-md-6 proj-single">
-        <div class="proj-card-img">
-          <img src="/src/img/projects/pawthway.png" alt="project-img" class="proj-card-img">
-        </div>
-        <div class="p-4  proj-card space">
-          <div class="proj-card-title">Pawthway</div>
-  
-          <div class="proj-card-desc"> 
-           Pawthway is a website connecting lost pets with their families. Users can easily share info about missing or found pets to increase the chances of reuniting beloved pets with their owners.
-          </div>
-          <div class="tech-items">
-            Tailwind, ReactJS, Supabase, NodeJS, MaterialUI
-           </div>
-           
-          <div class="proj-card-btns ">
-            <a href="https://pawthway.vercel.app/" target="_blank"><button class="proj-card-vbtn">View</button></a>
-            <a href="https://github.com/c-ent" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff; font-size:30px"></i></a>
-          </div>
-  
-       </div>
-        
-      </div>
+    <!-- Footer -->
+    <footer class="container footer">
+    <p class="madebyme">🪐 Made by Cent</p>
+    </footer>
 
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
 
-      <div class="col-md-6 proj-single">
-        <div class="proj-card-img">
-          <img src="/src/img/projects/nihon.png" alt="project-img" class="proj-card-img">
-        </div>
-        <div class="p-4  proj-card space">
-          <div class="proj-card-title">Hikari</div>
-  
-          <div class="proj-card-desc"> 
-            Hikari is a landing page designed to as a page to showcase the beauty of Japan. With distinct sections for discovery, a visual gallery, this project serves as a portal for users to explore.
-          </div>
-          <div class="tech-items">
-            Bootstrap, HTML, CSS, JS
-           </div>
-           
-          <div class="proj-card-btns ">
-            <a href="https://c-ent.github.io/Hikari/" target="_blank"><button class="proj-card-vbtn">View</button></a>
-            <a href="https://github.com/c-ent" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff; font-size:30px"></i></a>
-          </div>
-  
-       </div>
-        
-      </div>
-
-
-      <div class="col-md-6 proj-single">
-        <div class="proj-card-img">
-          <img src="/src/img/projects/omoifront.png" alt="project-img" class="proj-card-img">
-        </div>
-        <div class="p-4  proj-card space">
-          <div class="proj-card-title">Omoi</div>
-  
-          <div class="proj-card-desc"> 
-            A user-friendly app for note-taking and organization. With embedded authentication, it enables users to efficiently preserve and structure their thoughts, ideas, and tasks.
-          </div>
-          <div class="tech-items">
-            Tailwind, NextJS, MongoDB, NodeJS, MaterialUI, RestfulAPI, WYSIWYG
-           </div>
-           
-          <div class="proj-card-btns ">
-            <a href="https://omoi.vercel.app/" target="_blank"><button class="proj-card-vbtn">View</button></a>
-            <a href="https://github.com/c-ent" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff; font-size:30px"></i></a>
-          </div>
-  
-       </div>
-        
-      </div>
-
-
-      <div class="col-md-6 proj-single">
-        <div class="proj-card-img">
-          <img src="/src/img/projects/cornelia.png" alt="project-img" class="proj-card-img">
-        </div>
-        <div class="p-4  proj-card space">
-          <div class="proj-card-title">Cornelia</div>
-  
-          <div class="proj-card-desc"> 
-            A Laravel-based Library Management System facilitating book borrowing and returns. Set user-specific limits, view transaction history, manage books, and check user activities for efficient library administration.
-          </div>
-          <div class="tech-items">
-            PHP, Bootstrap, Laravel, MySQL
-           </div>
-           
-          <div class="proj-card-btns ">
-            <a href="#" target="_blank"><button class="proj-card-vbtn">View</button></a>
-            <a href="https://github.com/c-ent" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff; font-size:30px"></i></a>
-          </div>
-  
-       </div>
-        
-      </div>
-
-      <div class="col-md-6 proj-single">
-        <div class="proj-card-img">
-          <img src="/src/img/projects/heliantus.png" alt="project-img" class="proj-card-img" style="filter: blur(3px);">
-        </div>
-        
-        <div class="p-4  proj-card space">
-          <div class="proj-card-title">Helianthus</div>
-  
-          <div class="proj-card-desc"> 
-           In Progress
-          </div>
-          <!-- <div class="tech-items">
-            ReactJS, Tailwind, NodeJS
-           </div> -->
-           
-          <!-- <div class="proj-card-btns ">
-            <a href="#" target="_blank"><button class="proj-card-vbtn">In Progress</button></a>
-            <a href="#" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff; font-size:30px"></i></a>
-          </div> -->
-  
-       </div>
-        
-      </div>
-
-      <div class="col-md-6 proj-single">
-        <div class="proj-card-img">
-          <img src="/src/img/projects/pending.png" alt="project-img" class="proj-card-img" style="filter: blur(3px);">
-        </div>
-        <div class="p-4  proj-card space">
-          <div class="proj-card-title">Savyge</div>
-  
-          <div class="proj-card-desc"> 
-           In Progress
-          </div>
-          <!-- <div class="tech-items">
-            ReactJS, Tailwind, NodeJS
-           </div> -->
-           
-          <!-- <div class="proj-card-btns ">
-            <a href="#" target="_blank"><button class="proj-card-vbtn">In Progress</button></a>
-            <a href="#" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff; font-size:30px"></i></a>
-          </div> -->
-  
-       </div>
-        
-      </div>
-     
-  
-
-
-
-
-      <!-- <div class="col-md-6 proj-single">
-        <div class="proj-card-img">
-          <img src="/src/img/projects/portfolio.png" alt="project-img" class="proj-card-img">
-        </div>
-        <div class="p-4  proj-card space">
-          <div class="proj-card-title">Portfolio</div>
-  
-          <div class="proj-card-desc"> 
-            A personal portfolio I design and develop to showcase my skills and experience
-          </div>
-          <div class="tech-items">
-            Bootstrap, HTML, CSS, JS
-           </div>
-           
-          <div class="proj-card-btns ">
-            <a href="https://c-ent.tech/" target="_blank"><button class="proj-card-vbtn">View</button></a>
-            <a href="https://github.com/c-ent" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff; font-size:30px"></i></a>
-          </div>
-  
-       </div>
-        
-      </div> -->
-
-
-      
-     
-    </div>
-   
-
-  </section>
-  <!--  -->
-
- 
-
- <!-- Footer -->
- <footer class="container footer">
- <p class="madebyme">🪐 Made by Cent</p>
-</footer>
-
-
-
-  <!-- Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
-
-<script src="https://unpkg.com/animated-cursor@1.1.1/dist/index.umd.js"></script>
-  <script src="/script.js"></script>
-
-  
-</body>
-
-
-
-
-
-
+    <script src="https://unpkg.com/animated-cursor@1.1.1/dist/index.umd.js"></script>
+    <script src="/script.js"></script>
+  </body>
 </html>
