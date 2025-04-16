@@ -41,8 +41,6 @@ p,div{
     100% {color: rgb(251, 113, 133)}
 }
 
-
-
 #cursor-outer, #cursor-inner{
     z-index: 999 !important;
 }
