@@ -15,18 +15,16 @@ p,div{
 #loading{
     background-color: rgb(24, 24, 24);
     position: fixed;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  text-align: center;
-  z-index: 99;
-
- 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    z-index: 99;
 }
 
 
@@ -41,26 +39,27 @@ p,div{
     0%   {color: rgb(250, 204, 21)}
     50%  {color: rgb(34, 211, 238)}
     100% {color: rgb(251, 113, 133)}
-  }
+}
 
 
 
 #cursor-outer, #cursor-inner{
     z-index: 999 !important;
-  }
+}
+
+html {
+    scroll-padding-top: 90px; 
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: rgb(3, 3, 3);
     position: relative;
     padding: 30px;
     background-image: url('/src/img/bg.png');
     background-size: cover; 
-    background-repeat: no-repeat; /* Do not repeat the image */
-
-
-   
-    
+    background-repeat: no-repeat;
 }
-
 
 
 p{
@@ -71,11 +70,8 @@ h1{
     margin-bottom: 0;
 }
 
-
-
 section{
     margin-bottom: 130px;
-
 }
 
 .nav-link{
@@ -87,8 +83,6 @@ section{
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
-    
-/*  */
 }
 
 .banner-left{
@@ -101,9 +95,7 @@ section{
 }
 
 .hello-text,.name-text{
-   
     font-size: 65px;
-   
     font-weight: 700;
 }
 
@@ -117,12 +109,11 @@ section{
 }
 
 .name-text{
-     font-family: Poppins;
-        color: white;
+    font-family: Poppins;
+    color: white;
 }
 
 .dlcv{
-   
     border-radius: 20px;
     border: 1px solid rgba(85, 85, 85, 0.685);
     color: white;
@@ -137,8 +128,6 @@ section{
 .dlcv:hover{
     background-color: #f1f1f1;
     color: rgb(0, 0, 0);
-
-
 }
 
 .about-section{
@@ -149,7 +138,6 @@ section{
     color: #C6C6C6;
     font-size:17px;
     font-weight: 500;
-    /* width: 405px; */
     width: 500px;
     text-align: right;
 }
@@ -157,7 +145,6 @@ section{
 .banner-right{
     height: 500px;
     width: 45%;
-
     display: flex;
     justify-content: left;
     
@@ -168,15 +155,11 @@ section{
 }
 
 .glass-div{
-    width: 400px; /* set width of child div */
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
-
-
 
 /* About Section */
 
@@ -201,8 +184,6 @@ section{
     padding: 0px 70px 0px 70px;
     margin-top: 20px;
 }
-    
-/* End of About */
 
 /* Start of Project */
 .projects-title{
@@ -213,10 +194,7 @@ section{
         font-size: 35px;
         color: #FFFFFF;
         margin-bottom: 0;
-  
-
 }
-
 
 .conediv{
     display: flex;
@@ -227,11 +205,8 @@ section{
     width:10%;
 }
 
-/* End of Project */
-
 
 /* Start of Footer */
-
 .footer{
     display: flex;
     justify-content: center;
@@ -245,10 +220,7 @@ section{
     font-size: 15px;
 }
 
-
-/*  */
 /* Proj card */
-
 .proj-card{
     background: rgba(24, 24, 24, 0.86);
     -webkit-backdrop-filter: blur(5px);
@@ -260,13 +232,10 @@ section{
     margin-bottom: 40px;
     margin-top: -35px;
     transition: transform 0.3s ease-in-out;
-    
 }
-
 
 .proj-single:hover  .proj-card{
     transform: translateY(20px);
-    
 }
 
 .proj-card-img{
@@ -279,7 +248,6 @@ section{
 
 .proj-card:hover{
     background: rgb(16, 16, 16);
-
 }
 
 .proj-card-title{
@@ -303,11 +271,11 @@ section{
 
 .proj-card-vbtn{
     background: #ffcf11;
-border-radius: 40px;
-width: 100px;
-height: 35px;
-border: none;
-margin-right: 15px;
+    border-radius: 40px;
+    width: 100px;
+    height: 35px;
+    border: none;
+    margin-right: 15px;
 }
 
 .tech-items{
@@ -320,14 +288,11 @@ margin-right: 15px;
 
 .proj-card-vbtn:hover{
     background: rgb(74, 222, 128);
-    
-  
 }
 
 
-/*  */
-@media only screen and (max-width: 1280px) {
 
+@media only screen and (max-width: 1280px) {
     .hello-text,.name-text{
         font-size: 50px;
         text-align: right;
@@ -338,14 +303,9 @@ margin-right: 15px;
 
     .descript-text{
         font-size:15px;
-
-        /* width: 405px; */
         width: 330px;
     }
 }
-
-
-
 
 
 @media only screen and (max-width: 768px) {
@@ -367,8 +327,6 @@ margin-right: 15px;
     
     .descript-text{
         font-size:14px;
-
-        /* width: 405px; */
         width: 230px;
     }
 
@@ -391,12 +349,10 @@ margin-right: 15px;
         background-image: url('/src/img/bgmobile1.png');
         
     }
-   
+
     .banner-section{
         display: flex;
         justify-content: space-between;
-    
-    /*  */
     }
     
     .banner-left{
@@ -405,7 +361,7 @@ margin-right: 15px;
         justify-content: center;
         align-items: center;
     }
- 
+
     .hello-text,.name-text{
         font-size: 55px;
         text-align: left;
@@ -414,7 +370,6 @@ margin-right: 15px;
         font-size: 15px;
         text-align: left;
     }
-
 
     .banner-section{
         flex-direction: column;
@@ -440,16 +395,12 @@ margin-right: 15px;
         
     }
 
-
     .dlcv{
-      
         border-radius: 50px;
         width: 250px;
         height: 42px;
         font-size: 20px;
     }
-
-
 
     .pcgif{
         width: 100%;
@@ -458,10 +409,5 @@ margin-right: 15px;
     /* About */
     .abt-txt-div{
         padding: 0px;
-      
     }
-    /*  */
-
 }
-
-
